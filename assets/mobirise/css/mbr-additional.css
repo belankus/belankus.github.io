@@ -953,11 +953,6 @@ section.lazy-placeholder:after {
 .cid-rR2FB0pZ4b .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rR2FB0pZ4b .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rR2FB0pZ4b .collapsed button.navbar-toggler {
   display: block;
 }
@@ -1413,11 +1408,6 @@ section.lazy-placeholder:after {
 .cid-rR2FB0pZ4b .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rR2FB0pZ4b .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rR2FB0pZ4b .collapsed button.navbar-toggler {
   display: block;
 }
@@ -1568,4 +1558,63 @@ section.lazy-placeholder:after {
 .cid-rR2FB0pZ4b .nav-link:hover,
 .cid-rR2FB0pZ4b .dropdown-item:hover {
   color: #767676 !important;
+}
+.cid-rR2WtQ5BUG {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f9f9f9;
+}
+.cid-rR2WtQ5BUG p {
+  color: #767676;
+}
+.cid-rR2WtQ5BUG .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rR2WtQ5BUG .accordion-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rR2WtQ5BUG .panel-group {
+  width: 100%;
+}
+.cid-rR2WtQ5BUG .card {
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+.cid-rR2WtQ5BUG .card .card-header {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0;
+}
+.cid-rR2WtQ5BUG .card .card-header a.panel-title {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  text-decoration: none !important;
+  margin-top: -1px;
+  line-height: normal;
+}
+.cid-rR2WtQ5BUG .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+.cid-rR2WtQ5BUG .card .card-header a.panel-title h4 {
+  padding: 1.3rem 2rem;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 0;
+}
+.cid-rR2WtQ5BUG .card .card-header a.panel-title h4 .sign {
+  padding-right: 1rem;
+}
+.cid-rR2WtQ5BUG .mbr-figure {
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  padding-left: 4rem;
+}
+@media (max-width: 991px) {
+  .cid-rR2WtQ5BUG .mbr-figure {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 2rem;
+  }
 }
