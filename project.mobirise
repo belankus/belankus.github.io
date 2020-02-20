@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "My Site",
+    "name": "Bellawan Kusuma's Portal",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -42,7 +42,16 @@
     "versionFirst": "4.7.6",
     "uniqCompNum": 11,
     "versionPublish": "4.12.1",
-    "imageResize": true
+    "imageResize": true,
+    "favicon": "@PROJECT_PATH@/assets/images/favicon.ico",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-73148038-5\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-73148038-5');\n</script>\n"
   },
   "pages": {
     "index.html": {
