@@ -945,10 +945,6 @@ section.lazy-placeholder:after {
 .cid-rR2FB0pZ4b .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
-.cid-rR2FB0pZ4b .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-.cid-rR2FB0pZ4b .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
-  margin-bottom: 1rem;
-}
 .cid-rR2FB0pZ4b .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rR2FB0pZ4b .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1044,10 +1040,6 @@ section.lazy-placeholder:after {
   .cid-rR2FB0pZ4b .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-rR2FB0pZ4b .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
-  }
-  .cid-rR2FB0pZ4b .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-rR2FB0pZ4b .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
   }
   .cid-rR2FB0pZ4b .navbar-collapse.collapsing .navbar-buttons,
   .cid-rR2FB0pZ4b .navbar-collapse.show .navbar-buttons {
@@ -1408,10 +1400,6 @@ section.lazy-placeholder:after {
 .cid-rR2FB0pZ4b .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
-.cid-rR2FB0pZ4b .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-.cid-rR2FB0pZ4b .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
-  margin-bottom: 1rem;
-}
 .cid-rR2FB0pZ4b .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rR2FB0pZ4b .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1507,10 +1495,6 @@ section.lazy-placeholder:after {
   .cid-rR2FB0pZ4b .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-rR2FB0pZ4b .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
-  }
-  .cid-rR2FB0pZ4b .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-rR2FB0pZ4b .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
   }
   .cid-rR2FB0pZ4b .navbar-collapse.collapsing .navbar-buttons,
   .cid-rR2FB0pZ4b .navbar-collapse.show .navbar-buttons {
