@@ -3,6 +3,7 @@ $hijau: #34a853;
 $biru: #4285f4;
 $merah: #ea4335;
 $latar: #f8f9fa;
+$huruf: #707070;
 
 @font-face {
   font-family: "montserratregular";
@@ -11,7 +12,26 @@ $latar: #f8f9fa;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "cabinbold";
+  src: url("../font/cabin-bold-webfont.woff2") format("woff2"), url("../font/cabin-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cabinregular";
+  src: url("../font/cabin-regular-webfont.woff2") format("woff2"), url("../font/cabin-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 header {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+
   .logo {
     width: 30px;
   }
@@ -22,19 +42,147 @@ header {
 
   .navbar {
     font-family: montserratregular;
+    z-index: 5;
     a {
       color: white;
+      display: inline-block;
+    }
+    a:hover {
+      opacity: 0.5;
+      display: inline-block;
+    }
+    a:visited {
+      color: white;
+      display: inline-block;
+    }
+  }
+
+  .navbar-layer {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 56px;
+    background-color: $latar;
+  }
+
+  .photo1 {
+    position: absolute;
+    left: 660px;
+    top: 125.54px;
+    z-index: 4;
+  }
+  .gerigi1 {
+    position: absolute;
+    left: 943.51px;
+    top: 300.94px;
+    z-index: 4;
+  }
+  .gerigi2 {
+    position: absolute;
+    left: 642.78px;
+    top: 6.68px;
+    z-index: 4;
+  }
+  .gerigi3 {
+    position: absolute;
+    top: -100.14px;
+    left: 991.37px;
+    z-index: 4;
+  }
+  .polygon1 {
+    position: absolute;
+    left: -154.45px;
+    top: 365px;
+  }
+  .trapesium1 {
+    position: absolute;
+    // z-index: 1;
+    top: -594.53px;
+    left: 391.78px;
+    opacity: 0.6;
+  }
+
+  .trapesium2 {
+    position: absolute;
+    // z-index: 2;
+    top: -610.32px;
+    left: 410.13px;
+    opacity: 0.7;
+  }
+
+  .trapesium3 {
+    position: absolute;
+    // z-index: 3;
+    top: -627.5px;
+    left: 431.81px;
+    opacity: 1;
+  }
+  .cover {
+    background-color: $latar;
+    height: 710px;
+    position: relative;
+    .welcome {
+      padding-top: 132.4px;
+      h3 {
+        font-family: cabinregular;
+        font-size: 22px;
+        line-height: 27px;
+        margin: 0;
+        color: $huruf;
+      }
+      h2 {
+        font-family: cabinregular;
+        font-size: 40px;
+        line-height: 49px;
+        margin: 0;
+        color: $huruf;
+      }
+      .playground {
+        font-family: cabinbold;
+        font-size: 40px;
+        line-height: 49px;
+        margin: 0;
+        padding: 0;
+        word-spacing: 0;
+        letter-spacing: 0;
+
+        .merah {
+          color: $merah;
+        }
+        .biru {
+          color: $biru;
+        }
+        .kuning {
+          color: $kuning;
+        }
+        .hijau {
+          color: $hijau;
+        }
+      }
     }
   }
 }
 
-body {
-  min-height: 2000px;
+section {
+  width: 100%;
+  .about {
+    height: 885px;
+    background-color: $latar;
+  }
+
+  .main {
+    width: 100%;
+  }
 }
 
-section {
-  .cover {
-    background-color: $latar;
-    height: 300px;
+.navbar-gaya.scrolled {
+  background-color: $latar !important;
+  transition: background-color 300ms linear;
+  opacity: 1;
+  a {
+    color: $huruf;
+  }
+  a:visited {
+    color: $huruf;
   }
 }

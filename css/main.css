@@ -5,6 +5,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "cabinbold";
+  src: url("../font/cabin-bold-webfont.woff2") format("woff2"), url("../font/cabin-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cabinregular";
+  src: url("../font/cabin-regular-webfont.woff2") format("woff2"), url("../font/cabin-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
 header .logo {
   width: 30px;
 }
@@ -15,18 +36,164 @@ header .transparan {
 
 header .navbar {
   font-family: montserratregular;
+  z-index: 5;
 }
 
 header .navbar a {
   color: white;
+  display: inline-block;
 }
 
-body {
-  min-height: 2000px;
+header .navbar a:hover {
+  opacity: 0.5;
+  display: inline-block;
 }
 
-section .cover {
+header .navbar a:visited {
+  color: white;
+  display: inline-block;
+}
+
+header .navbar-layer {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 56px;
   background-color: #f8f9fa;
-  height: 300px;
+}
+
+header .photo1 {
+  position: absolute;
+  left: 660px;
+  top: 125.54px;
+  z-index: 4;
+}
+
+header .gerigi1 {
+  position: absolute;
+  left: 943.51px;
+  top: 300.94px;
+  z-index: 4;
+}
+
+header .gerigi2 {
+  position: absolute;
+  left: 642.78px;
+  top: 6.68px;
+  z-index: 4;
+}
+
+header .gerigi3 {
+  position: absolute;
+  top: -100.14px;
+  left: 991.37px;
+  z-index: 4;
+}
+
+header .polygon1 {
+  position: absolute;
+  left: -154.45px;
+  top: 365px;
+}
+
+header .trapesium1 {
+  position: absolute;
+  top: -594.53px;
+  left: 391.78px;
+  opacity: 0.6;
+}
+
+header .trapesium2 {
+  position: absolute;
+  top: -610.32px;
+  left: 410.13px;
+  opacity: 0.7;
+}
+
+header .trapesium3 {
+  position: absolute;
+  top: -627.5px;
+  left: 431.81px;
+  opacity: 1;
+}
+
+header .cover {
+  background-color: #f8f9fa;
+  height: 710px;
+  position: relative;
+}
+
+header .cover .welcome {
+  padding-top: 132.4px;
+}
+
+header .cover .welcome h3 {
+  font-family: cabinregular;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 0;
+  color: #707070;
+}
+
+header .cover .welcome h2 {
+  font-family: cabinregular;
+  font-size: 40px;
+  line-height: 49px;
+  margin: 0;
+  color: #707070;
+}
+
+header .cover .welcome .playground {
+  font-family: cabinbold;
+  font-size: 40px;
+  line-height: 49px;
+  margin: 0;
+  padding: 0;
+  word-spacing: 0;
+  letter-spacing: 0;
+}
+
+header .cover .welcome .playground .merah {
+  color: #ea4335;
+}
+
+header .cover .welcome .playground .biru {
+  color: #4285f4;
+}
+
+header .cover .welcome .playground .kuning {
+  color: #fbbc05;
+}
+
+header .cover .welcome .playground .hijau {
+  color: #34a853;
+}
+
+section {
+  width: 100%;
+}
+
+section .about {
+  height: 885px;
+  background-color: #f8f9fa;
+}
+
+section .main {
+  width: 100%;
+}
+
+.navbar-gaya.scrolled {
+  background-color: #f8f9fa !important;
+  -webkit-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+  opacity: 1;
+}
+
+.navbar-gaya.scrolled a {
+  color: #707070;
+}
+
+.navbar-gaya.scrolled a:visited {
+  color: #707070;
 }
 /*# sourceMappingURL=main.css.map */
