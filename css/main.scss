@@ -4,10 +4,37 @@ $biru: #4285f4;
 $merah: #ea4335;
 $latar: #f8f9fa;
 
+@font-face {
+  font-family: "montserratregular";
+  src: url("../font/montserrat-regular.woff2") format("woff2"), url("../font/montserrat-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 header {
-  background-color: $latar;
-  font-size: 3rem;
-  h1 {
-    font-size: 2rem;
+  .logo {
+    width: 30px;
+  }
+
+  .transparan {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .navbar {
+    font-family: montserratregular;
+    a {
+      color: white;
+    }
+  }
+}
+
+body {
+  min-height: 2000px;
+}
+
+section {
+  .cover {
+    background-color: $latar;
+    height: 300px;
   }
 }
