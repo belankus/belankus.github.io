@@ -26,6 +26,12 @@
   font-style: normal;
 }
 
+@media (max-width: 768px) {
+  .grid-container {
+    display: none;
+  }
+}
+
 header {
   width: 100%;
   height: auto;
