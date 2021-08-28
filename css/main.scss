@@ -226,15 +226,192 @@ section {
     right: -100px;
     z-index: 7;
   }
-
-  .garis1 {
+  .photo2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .garis-1 {
     position: relative;
     top: -85px;
   }
 
-  .garis2 {
+  .garis-2 {
     position: relative;
     top: -300px;
     left: -50px;
+  }
+}
+
+.milestone {
+  width: 100%;
+
+  .judul {
+    padding-top: 90px;
+    text-align: center;
+    h1 {
+      color: $huruf;
+      font-family: vigaregular;
+      font-size: 34px;
+    }
+    span {
+      color: $merah;
+    }
+  }
+
+  h3 {
+    font-family: montserratregular;
+    font-size: 18px;
+    text-align: center;
+    color: $huruf;
+  }
+  .grid-container {
+    position: relative;
+    margin-top: 100px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(9, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      ". tanggal1 . . tanggal2 . . . tanggal3 . . ."
+      ". titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3"
+      "konten1 konten1 konten1 konten2 konten2 konten2 konten3 konten3 konten3 garis3 garis3 garis3"
+      ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3"
+      "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3"
+      "garis5 garis5 garis5 konten5 . . . konten4 konten4 konten4 . ."
+      "garis5 garis5 garis5 . . . . . . . . ."
+      "garis5 garis5 garis5 titik6 garis6 garis6 titik7 garis7 garis7 garis7 titik8 ."
+      ". . konten6 konten6 konten6 konten7 konten7 konten7 . konten8 konten8 konten8";
+  }
+
+  .tanggal1 {
+    grid-area: tanggal1;
+    align-self: end;
+  }
+  .tanggal2 {
+    grid-area: tanggal2;
+  }
+  .tanggal3 {
+    grid-area: tanggal3;
+  }
+  .tanggal4 {
+    grid-area: tanggal4;
+  }
+  .tanggal5 {
+    grid-area: tanggal5;
+  }
+  .konten1 {
+    grid-area: konten1;
+    background: $biru;
+  }
+  .konten2 {
+    grid-area: konten2;
+    background: $biru;
+  }
+  .konten3 {
+    grid-area: konten3;
+    background: $biru;
+  }
+  .konten4 {
+    grid-area: konten4;
+    background: $biru;
+  }
+  .konten5 {
+    grid-area: konten5;
+    background: $biru;
+  }
+  .konten6 {
+    grid-area: konten6;
+    background: $biru;
+  }
+  .konten7 {
+    grid-area: konten7;
+    background: $biru;
+  }
+  .konten8 {
+    grid-area: konten8;
+    background: $biru;
+  }
+  .garis1 {
+    grid-area: garis1;
+    // background: $kuning;
+  }
+  .garis2 {
+    grid-area: garis2;
+    // background: $kuning;
+  }
+  .garis3 {
+    grid-area: garis3;
+    background: $kuning;
+  }
+  .garis4 {
+    grid-area: garis4;
+    // background: $kuning;
+  }
+  .garis5 {
+    grid-area: garis5;
+    background: $kuning;
+  }
+  .garis6 {
+    grid-area: garis6;
+    // background: $kuning;
+  }
+  .garis7 {
+    grid-area: garis7;
+    // background: $kuning;
+  }
+  .titik1 {
+    position: relative;
+    bottom: -3px;
+    grid-area: titik1;
+
+    // background: $hijau;
+  }
+  .titik2 {
+    position: relative;
+    bottom: -3px;
+    grid-area: titik2;
+    // background: $hijau;
+  }
+  .titik3 {
+    position: relative;
+    bottom: -3px;
+    grid-area: titik3;
+    // background: $hijau;
+  }
+  .titik4 {
+    position: relative;
+    bottom: -3px;
+    grid-area: titik4;
+    // background: $hijau;
+  }
+  .titik5 {
+    position: relative;
+    bottom: -3px;
+    grid-area: titik5;
+    // background: $hijau;
+  }
+  .titik6 {
+    position: relative;
+    bottom: -3px;
+    grid-area: titik6;
+    // background: $hijau;
+  }
+  .titik7 {
+    position: relative;
+    bottom: -3px;
+    grid-area: titik7;
+    // background: $hijau;
+  }
+  .titik8 {
+    position: relative;
+    bottom: -3px;
+    grid-area: titik8;
+    // background: $hijau;
   }
 }

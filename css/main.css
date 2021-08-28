@@ -240,14 +240,279 @@ section .main {
   z-index: 7;
 }
 
-.about .garis1 {
+.about .photo2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.about .garis-1 {
   position: relative;
   top: -85px;
 }
 
-.about .garis2 {
+.about .garis-2 {
   position: relative;
   top: -300px;
   left: -50px;
+}
+
+.milestone {
+  width: 100%;
+}
+
+.milestone .judul {
+  padding-top: 90px;
+  text-align: center;
+}
+
+.milestone .judul h1 {
+  color: #707070;
+  font-family: vigaregular;
+  font-size: 34px;
+}
+
+.milestone .judul span {
+  color: #ea4335;
+}
+
+.milestone h3 {
+  font-family: montserratregular;
+  font-size: 18px;
+  text-align: center;
+  color: #707070;
+}
+
+.milestone .grid-container {
+  position: relative;
+  margin-top: 100px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  height: 800px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100px)[12];
+      grid-template-columns: repeat(12, 100px);
+  -ms-grid-rows: (1fr)[9];
+      grid-template-rows: repeat(9, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+      grid-template-areas: ". tanggal1 . . tanggal2 . . . tanggal3 . . ." ". titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3" "konten1 konten1 konten1 konten2 konten2 konten2 konten3 konten3 konten3 garis3 garis3 garis3" ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3" "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3" "garis5 garis5 garis5 konten5 . . . konten4 konten4 konten4 . ." "garis5 garis5 garis5 . . . . . . . . ." "garis5 garis5 garis5 titik6 garis6 garis6 titik7 garis7 garis7 garis7 titik8 ." ". . konten6 konten6 konten6 konten7 konten7 konten7 . konten8 konten8 konten8";
+}
+
+.milestone .tanggal1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: tanggal1;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.milestone .tanggal2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: tanggal2;
+}
+
+.milestone .tanggal3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 9;
+  grid-area: tanggal3;
+}
+
+.milestone .tanggal4 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 9;
+  grid-area: tanggal4;
+}
+
+.milestone .tanggal5 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 4;
+  grid-area: tanggal5;
+}
+
+.milestone .konten1 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: konten1;
+  background: #4285f4;
+}
+
+.milestone .konten2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 3;
+  grid-area: konten2;
+  background: #4285f4;
+}
+
+.milestone .konten3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 3;
+  grid-area: konten3;
+  background: #4285f4;
+}
+
+.milestone .konten4 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: konten4;
+  background: #4285f4;
+}
+
+.milestone .konten5 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 4;
+  grid-area: konten5;
+  background: #4285f4;
+}
+
+.milestone .konten6 {
+  -ms-grid-row: 9;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-area: konten6;
+  background: #4285f4;
+}
+
+.milestone .konten7 {
+  -ms-grid-row: 9;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-area: konten7;
+  background: #4285f4;
+}
+
+.milestone .konten8 {
+  -ms-grid-row: 9;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 3;
+  grid-area: konten8;
+  background: #4285f4;
+}
+
+.milestone .garis1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: garis1;
+}
+
+.milestone .garis2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-area: garis2;
+}
+
+.milestone .garis3 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 3;
+  grid-area: garis3;
+  background: #fbbc05;
+}
+
+.milestone .garis4 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-area: garis4;
+}
+
+.milestone .garis5 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: garis5;
+  background: #fbbc05;
+}
+
+.milestone .garis6 {
+  -ms-grid-row: 8;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-area: garis6;
+}
+
+.milestone .garis7 {
+  -ms-grid-row: 8;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: garis7;
+}
+
+.milestone .titik1 {
+  position: relative;
+  bottom: -3px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: titik1;
+}
+
+.milestone .titik2 {
+  position: relative;
+  bottom: -3px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 5;
+  grid-area: titik2;
+}
+
+.milestone .titik3 {
+  position: relative;
+  bottom: -3px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 9;
+  grid-area: titik3;
+}
+
+.milestone .titik4 {
+  position: relative;
+  bottom: -3px;
+  -ms-grid-row: 5;
+  -ms-grid-column: 9;
+  grid-area: titik4;
+}
+
+.milestone .titik5 {
+  position: relative;
+  bottom: -3px;
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  grid-area: titik5;
+}
+
+.milestone .titik6 {
+  position: relative;
+  bottom: -3px;
+  -ms-grid-row: 8;
+  -ms-grid-column: 4;
+  grid-area: titik6;
+}
+
+.milestone .titik7 {
+  position: relative;
+  bottom: -3px;
+  -ms-grid-row: 8;
+  -ms-grid-column: 7;
+  grid-area: titik7;
+}
+
+.milestone .titik8 {
+  position: relative;
+  bottom: -3px;
+  -ms-grid-row: 8;
+  -ms-grid-column: 11;
+  grid-area: titik8;
 }
 /*# sourceMappingURL=main.css.map */
