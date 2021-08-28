@@ -33,12 +33,6 @@ $huruf: #707070;
   font-style: normal;
 }
 
-@media (max-width: 768px) {
-  .grid-container {
-    display: none;
-  }
-}
-
 header {
   width: 100%;
   height: auto;
@@ -290,7 +284,7 @@ section {
       ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3"
       "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3"
       "garis5 garis5 garis5 konten5 . . . konten4 konten4 konten4 . ."
-      "garis5 garis5 garis5 . . . . . . . . ."
+      "garis5 garis5 garis5 tanggal6 . . tanggal7 . . . tanggal8 ."
       "garis5 garis5 garis5 titik6 garis6 garis6 titik7 garis7 garis7 garis7 titik8 ."
       ". . konten6 konten6 konten6 konten7 konten7 konten7 . konten8 konten8 konten8";
   }
@@ -301,15 +295,31 @@ section {
   }
   .tanggal2 {
     grid-area: tanggal2;
+    align-self: end;
   }
   .tanggal3 {
     grid-area: tanggal3;
+    align-self: end;
   }
   .tanggal4 {
     grid-area: tanggal4;
+    align-self: end;
   }
   .tanggal5 {
     grid-area: tanggal5;
+    align-self: end;
+  }
+  .tanggal6 {
+    grid-area: tanggal6;
+    align-self: end;
+  }
+  .tanggal7 {
+    grid-area: tanggal7;
+    align-self: end;
+  }
+  .tanggal8 {
+    grid-area: tanggal8;
+    align-self: end;
   }
   .konten1 {
     grid-area: konten1;
@@ -419,5 +429,142 @@ section {
     bottom: -3px;
     grid-area: titik8;
     // background: $hijau;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    .transparan {
+      background-color: rgba(248, 249, 250, 1);
+    }
+    .navbar-toggler {
+      background-color: rgba(248, 249, 250, 1);
+      border: 1px solid $huruf;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(112,112,112, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar {
+      font-family: montserratregular;
+      z-index: 5;
+      a {
+        color: $huruf;
+        display: inline-block;
+      }
+      a:hover {
+        opacity: 0.5;
+        display: inline-block;
+      }
+      a:visited {
+        color: $huruf;
+        display: inline-block;
+      }
+    }
+  }
+
+  .about {
+    position: relative;
+    .polygon2 {
+      position: absolute;
+      top: 170px;
+      right: -100px;
+      z-index: 0;
+    }
+    p {
+      position: relative;
+      z-index: 1;
+    }
+  }
+  .milestone {
+    width: 100%;
+    .grid-container {
+      column-gap: 30px;
+      display: grid;
+      grid-template-columns: 150px 20px auto;
+      grid-template-rows: repeat(9, 1fr);
+      grid-template-areas:
+        "tanggal4 titik4 konten4"
+        ". . ."
+        "tanggal5 titik5 konten5"
+        ". . ."
+        "tanggal6 titik6 konten6"
+        ". . ."
+        "tanggal7 titik7 konten7"
+        ". . ."
+        "tanggal8 titik8 konten8";
+    }
+    .tanggal4 {
+      grid-area: tanggal4;
+    }
+    .tanggal5 {
+      grid-area: tanggal5;
+    }
+    .tanggal6 {
+      grid-area: tanggal6;
+    }
+    .tanggal7 {
+      grid-area: tanggal7;
+    }
+    .tanggal8 {
+      grid-area: tanggal8;
+    }
+    .titik4 {
+      grid-area: titik4;
+    }
+    .titik5 {
+      grid-area: titik5;
+    }
+    .titik6 {
+      grid-area: titik6;
+    }
+    .titik7 {
+      grid-area: titik7;
+    }
+    .titik8 {
+      grid-area: titik8;
+    }
+    .konten4 {
+      grid-area: konten4;
+    }
+    .konten5 {
+      grid-area: konten5;
+    }
+    .konten6 {
+      grid-area: konten6;
+    }
+    .konten7 {
+      grid-area: konten7;
+    }
+    .konten8 {
+      grid-area: konten8;
+    }
+
+    .konten4,
+    .konten5,
+    .konten6,
+    .konten7,
+    .konten8 {
+      justify-self: start;
+    }
+
+    .tanggal1,
+    .tanggal2,
+    .tanggal3,
+    .garis1,
+    .garis2,
+    .garis3,
+    .garis4,
+    .garis5,
+    .garis6,
+    .garis7,
+    .titik1,
+    .titik2,
+    .titik3,
+    .konten1,
+    .konten2,
+    .konten3 {
+      display: none;
+    }
   }
 }
