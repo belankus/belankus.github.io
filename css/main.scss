@@ -26,6 +26,13 @@ $huruf: #707070;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "vigaregular";
+  src: url("../font/viga-regular.woff2") format("woff2"), url("../font/viga-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 header {
   width: 100%;
   height: auto;
@@ -85,7 +92,7 @@ header {
   }
   .gerigi3 {
     position: absolute;
-    top: -100.14px;
+    top: -100 0.14px;
     left: 991.37px;
     z-index: 4;
   }
@@ -160,6 +167,9 @@ header {
         }
       }
     }
+    .deskripsi {
+      color: $huruf;
+    }
   }
 }
 
@@ -184,5 +194,47 @@ section {
   }
   a:visited {
     color: $huruf;
+  }
+}
+
+.about {
+  width: 100%;
+  background-color: $latar;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  h1 {
+    padding-top: 90px;
+    font-family: vigaregular;
+    font-size: 34px;
+    text-align: center;
+    color: $huruf;
+    margin-bottom: 60px;
+  }
+
+  .merah {
+    color: $merah;
+  }
+
+  p {
+    color: $huruf;
+  }
+
+  .polygon2 {
+    position: absolute;
+    top: 170px;
+    right: -100px;
+    z-index: 7;
+  }
+
+  .garis1 {
+    position: relative;
+    top: -85px;
+  }
+
+  .garis2 {
+    position: relative;
+    top: -300px;
+    left: -50px;
   }
 }

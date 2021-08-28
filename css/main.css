@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "vigaregular";
+  src: url("../font/viga-regular.woff2") format("woff2"), url("../font/viga-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 header {
   width: 100%;
   height: auto;
@@ -85,7 +92,7 @@ header .gerigi2 {
 
 header .gerigi3 {
   position: absolute;
-  top: -100.14px;
+  top: -100 0.14px;
   left: 991.37px;
   z-index: 4;
 }
@@ -169,6 +176,10 @@ header .cover .welcome .playground .hijau {
   color: #34a853;
 }
 
+header .cover .deskripsi {
+  color: #707070;
+}
+
 section {
   width: 100%;
 }
@@ -195,5 +206,48 @@ section .main {
 
 .navbar-gaya.scrolled a:visited {
   color: #707070;
+}
+
+.about {
+  width: 100%;
+  background-color: #f8f9fa;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about h1 {
+  padding-top: 90px;
+  font-family: vigaregular;
+  font-size: 34px;
+  text-align: center;
+  color: #707070;
+  margin-bottom: 60px;
+}
+
+.about .merah {
+  color: #ea4335;
+}
+
+.about p {
+  color: #707070;
+}
+
+.about .polygon2 {
+  position: absolute;
+  top: 170px;
+  right: -100px;
+  z-index: 7;
+}
+
+.about .garis1 {
+  position: relative;
+  top: -85px;
+}
+
+.about .garis2 {
+  position: relative;
+  top: -300px;
+  left: -50px;
 }
 /*# sourceMappingURL=main.css.map */
