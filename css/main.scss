@@ -3,6 +3,7 @@ $hijau: #34a853;
 $biru: #4285f4;
 $merah: #ea4335;
 $latar: #f8f9fa;
+$latar2: #e9ecef;
 $huruf: #707070;
 
 @font-face {
@@ -228,9 +229,9 @@ section {
   }
   .photo2 {
     position: absolute;
-    bottom: 0;
+    bottom: 100px;
     left: 0;
-    z-index: 1;
+    z-index: 2;
   }
   .garis-1 {
     position: relative;
@@ -241,11 +242,27 @@ section {
     position: relative;
     top: -300px;
     left: -50px;
+
+    z-index: 1;
+  }
+  .wave {
+    position: relative;
+    bottom: 600px;
+    z-index: 3;
+    left: -15px;
+  }
+
+  .wave1 {
+    position: relative;
+    bottom: 830px;
+    left: 800px;
+    z-index: 0;
   }
 }
 
 .milestone {
   width: 100%;
+  background-color: $latar2;
 
   .judul {
     padding-top: 90px;
@@ -280,7 +297,7 @@ section {
     grid-template-areas:
       ". tanggal1 . . tanggal2 . . . tanggal3 . . ."
       ". titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3"
-      "konten1 konten1 konten1 konten2 konten2 konten2 konten3 konten3 konten3 garis3 garis3 garis3"
+      ". konten1 . . konten2 . . . konten3 garis3 garis3 garis3"
       ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3"
       "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3"
       "garis5 garis5 garis5 konten5 . . . konten4 konten4 konten4 . ."
@@ -291,35 +308,40 @@ section {
 
   .tanggal1 {
     grid-area: tanggal1;
-    align-self: end;
   }
   .tanggal2 {
     grid-area: tanggal2;
-    align-self: end;
   }
   .tanggal3 {
     grid-area: tanggal3;
-    align-self: end;
   }
   .tanggal4 {
     grid-area: tanggal4;
-    align-self: end;
   }
   .tanggal5 {
     grid-area: tanggal5;
-    align-self: end;
   }
   .tanggal6 {
     grid-area: tanggal6;
-    align-self: end;
   }
   .tanggal7 {
     grid-area: tanggal7;
-    align-self: end;
   }
   .tanggal8 {
     grid-area: tanggal8;
+  }
+
+  .tanggal1,
+  .tanggal2,
+  .tanggal3,
+  .tanggal4,
+  .tanggal5,
+  .tanggal6,
+  .tanggal7,
+  .tanggal8 {
     align-self: end;
+    position: relative;
+    bottom: -30px;
   }
   .konten1 {
     grid-area: konten1;
@@ -363,7 +385,10 @@ section {
   }
   .garis3 {
     grid-area: garis3;
-    background: $kuning;
+    justify-self: start;
+    position: relative;
+    left: -15px;
+    // background: $kuning;
   }
   .garis4 {
     grid-area: garis4;
@@ -371,10 +396,16 @@ section {
   }
   .garis5 {
     grid-area: garis5;
-    background: $kuning;
+    justify-self: end;
+    position: relative;
+    right: -15px;
+    // background: $kuning;
   }
   .garis6 {
     grid-area: garis6;
+    justify-self: center;
+    position: relative;
+    left: -4px;
     // background: $kuning;
   }
   .garis7 {
@@ -461,13 +492,30 @@ section {
         display: inline-block;
       }
     }
+
+    h3,
+    h2,
+    p,
+    .playground {
+      text-align: center;
+    }
+    .photo1 {
+      position: absolute;
+      left: 0;
+      top: 400px;
+
+      img {
+        height: 200px;
+      }
+    }
   }
 
   .about {
     position: relative;
+
     .polygon2 {
       position: absolute;
-      top: 170px;
+      top: -100px;
       right: -100px;
       z-index: 0;
     }
@@ -475,13 +523,28 @@ section {
       position: relative;
       z-index: 1;
     }
+
+    .photo2 {
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      z-index: 2;
+    }
+    img {
+      width: 150px;
+    }
+    .wave,
+    .wave1 {
+      display: none;
+    }
   }
   .milestone {
     width: 100%;
+
     .grid-container {
       column-gap: 30px;
       display: grid;
-      grid-template-columns: 150px 20px auto;
+      grid-template-columns: 120px 20px auto;
       grid-template-rows: repeat(9, 1fr);
       grid-template-areas:
         "tanggal4 titik4 konten4"
@@ -493,6 +556,9 @@ section {
         "tanggal7 titik7 konten7"
         ". . ."
         "tanggal8 titik8 konten8";
+    }
+    h3 {
+      text-align: right;
     }
     .tanggal4 {
       grid-area: tanggal4;
@@ -509,6 +575,17 @@ section {
     .tanggal8 {
       grid-area: tanggal8;
     }
+
+    .tanggal4,
+    .tanggal5,
+    .tanggal6,
+    .tanggal7,
+    .tanggal8 {
+      position: relative;
+      align-self: center;
+      bottom: -5px;
+      justify-self: end;
+    }
     .titik4 {
       grid-area: titik4;
     }
@@ -524,6 +601,15 @@ section {
     .titik8 {
       grid-area: titik8;
     }
+    .titik4,
+    .titik5,
+    .titik6,
+    .titik7,
+    .titik8 {
+      position: relative;
+      // left: -25px;
+    }
+
     .konten4 {
       grid-area: konten4;
     }
