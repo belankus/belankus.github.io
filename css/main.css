@@ -596,6 +596,9 @@ section .main {
     color: #707070;
     display: inline-block;
   }
+  header h2 {
+    font-size: 0.6rem;
+  }
   header h3,
   header h2,
   header p,
