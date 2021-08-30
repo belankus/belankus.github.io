@@ -669,6 +669,11 @@ section {
       top: 35px;
       left: -25px;
       justify-self: start;
+      .konten {
+        text-align: left;
+        position: relative;
+        left: 25px;
+      }
       .konten-pc {
         display: none;
       }

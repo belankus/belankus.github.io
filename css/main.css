@@ -796,6 +796,15 @@ section .main {
     -ms-grid-column-align: start;
         justify-self: start;
   }
+  .milestone .konten4 .konten,
+  .milestone .konten5 .konten,
+  .milestone .konten6 .konten,
+  .milestone .konten7 .konten,
+  .milestone .konten8 .konten {
+    text-align: left;
+    position: relative;
+    left: 25px;
+  }
   .milestone .konten4 .konten-pc,
   .milestone .konten5 .konten-pc,
   .milestone .konten6 .konten-pc,
