@@ -341,39 +341,63 @@ section {
   .tanggal8 {
     align-self: end;
     position: relative;
-    bottom: -30px;
+    bottom: -10px;
+  }
+  .konten-hp {
+    display: none;
   }
   .konten1 {
     grid-area: konten1;
-    background: $biru;
+    // background: $biru;
   }
   .konten2 {
     grid-area: konten2;
-    background: $biru;
+    // background: $biru;
   }
   .konten3 {
     grid-area: konten3;
-    background: $biru;
+    // background: $biru;
   }
   .konten4 {
     grid-area: konten4;
-    background: $biru;
+    // background: $biru;
   }
   .konten5 {
     grid-area: konten5;
-    background: $biru;
+    // background: $biru;
   }
   .konten6 {
     grid-area: konten6;
-    background: $biru;
+    // background: $biru;
   }
   .konten7 {
     grid-area: konten7;
-    background: $biru;
+    // background: $biru;
   }
   .konten8 {
     grid-area: konten8;
-    background: $biru;
+    // background: $biru;
+  }
+  .konten1,
+  .konten2,
+  .konten3,
+  .konten4,
+  .konten5,
+  .konten6,
+  .konten7,
+  .konten8 {
+    position: relative;
+    left: -3px;
+
+    .konten {
+      position: relative;
+      top: -62px;
+      text-align: center;
+      font-family: cabinregular;
+      color: $latar;
+      // font-size: 1.1rem;
+      line-height: 22px;
+    }
   }
   .garis1 {
     grid-area: garis1;
@@ -492,9 +516,7 @@ section {
         display: inline-block;
       }
     }
-    h2 {
-      font-size: 0.6rem;
-    }
+
     h3,
     h2,
     p,
@@ -508,6 +530,12 @@ section {
 
       img {
         height: 200px;
+      }
+    }
+    .cover {
+      h2 {
+        font-size: 30px;
+        line-height: 34px;
       }
     }
   }
@@ -633,7 +661,16 @@ section {
     .konten6,
     .konten7,
     .konten8 {
+      position: relative;
+      top: 35px;
       justify-self: start;
+      .konten-pc {
+        display: none;
+      }
+
+      .konten-hp {
+        display: block;
+      }
     }
 
     .tanggal1,

@@ -379,28 +379,29 @@ section .main {
       -ms-grid-row-align: end;
       align-self: end;
   position: relative;
-  bottom: -30px;
+  bottom: -10px;
+}
+
+.milestone .konten-hp {
+  display: none;
 }
 
 .milestone .konten1 {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: konten1;
-  background: #4285f4;
 }
 
 .milestone .konten2 {
   -ms-grid-row: 3;
   -ms-grid-column: 5;
   grid-area: konten2;
-  background: #4285f4;
 }
 
 .milestone .konten3 {
   -ms-grid-row: 3;
   -ms-grid-column: 9;
   grid-area: konten3;
-  background: #4285f4;
 }
 
 .milestone .konten4 {
@@ -408,14 +409,12 @@ section .main {
   -ms-grid-column: 8;
   -ms-grid-column-span: 3;
   grid-area: konten4;
-  background: #4285f4;
 }
 
 .milestone .konten5 {
   -ms-grid-row: 6;
   -ms-grid-column: 4;
   grid-area: konten5;
-  background: #4285f4;
 }
 
 .milestone .konten6 {
@@ -423,7 +422,6 @@ section .main {
   -ms-grid-column: 3;
   -ms-grid-column-span: 3;
   grid-area: konten6;
-  background: #4285f4;
 }
 
 .milestone .konten7 {
@@ -431,7 +429,6 @@ section .main {
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
   grid-area: konten7;
-  background: #4285f4;
 }
 
 .milestone .konten8 {
@@ -439,7 +436,34 @@ section .main {
   -ms-grid-column: 10;
   -ms-grid-column-span: 3;
   grid-area: konten8;
-  background: #4285f4;
+}
+
+.milestone .konten1,
+.milestone .konten2,
+.milestone .konten3,
+.milestone .konten4,
+.milestone .konten5,
+.milestone .konten6,
+.milestone .konten7,
+.milestone .konten8 {
+  position: relative;
+  left: -3px;
+}
+
+.milestone .konten1 .konten,
+.milestone .konten2 .konten,
+.milestone .konten3 .konten,
+.milestone .konten4 .konten,
+.milestone .konten5 .konten,
+.milestone .konten6 .konten,
+.milestone .konten7 .konten,
+.milestone .konten8 .konten {
+  position: relative;
+  top: -62px;
+  text-align: center;
+  font-family: cabinregular;
+  color: #f8f9fa;
+  line-height: 22px;
 }
 
 .milestone .garis1 {
@@ -596,9 +620,6 @@ section .main {
     color: #707070;
     display: inline-block;
   }
-  header h2 {
-    font-size: 0.6rem;
-  }
   header h3,
   header h2,
   header p,
@@ -612,6 +633,10 @@ section .main {
   }
   header .photo1 img {
     height: 200px;
+  }
+  header .cover h2 {
+    font-size: 30px;
+    line-height: 34px;
   }
   .about {
     position: relative;
@@ -756,8 +781,24 @@ section .main {
   .milestone .konten6,
   .milestone .konten7,
   .milestone .konten8 {
+    position: relative;
+    top: 35px;
     -ms-grid-column-align: start;
         justify-self: start;
+  }
+  .milestone .konten4 .konten-pc,
+  .milestone .konten5 .konten-pc,
+  .milestone .konten6 .konten-pc,
+  .milestone .konten7 .konten-pc,
+  .milestone .konten8 .konten-pc {
+    display: none;
+  }
+  .milestone .konten4 .konten-hp,
+  .milestone .konten5 .konten-hp,
+  .milestone .konten6 .konten-hp,
+  .milestone .konten7 .konten-hp,
+  .milestone .konten8 .konten-hp {
+    display: block;
   }
   .milestone .tanggal1,
   .milestone .tanggal2,
