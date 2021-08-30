@@ -93,8 +93,8 @@ header {
   }
   .gerigi3 {
     position: absolute;
-    top: -100 0.14px;
-    left: 991.37px;
+    top: -100.14px;
+    left: 961.37px;
     z-index: 4;
   }
   .polygon1 {
@@ -171,6 +171,9 @@ header {
     .deskripsi {
       color: $huruf;
     }
+  }
+  .polygon2 {
+    display: none;
   }
 }
 
@@ -399,6 +402,12 @@ section {
       line-height: 22px;
     }
   }
+  .garis-hp1,
+  .garis-hp2,
+  .garis-hp3,
+  .garis-hp4 {
+    display: none;
+  }
   .garis1 {
     grid-area: garis1;
     // background: $kuning;
@@ -538,6 +547,13 @@ section {
         line-height: 34px;
       }
     }
+    .polygon2 {
+      display: block;
+      position: absolute;
+      bottom: -75px;
+      right: -75px;
+      z-index: 0;
+    }
   }
 
   .about {
@@ -545,8 +561,8 @@ section {
 
     .polygon2 {
       position: absolute;
-      top: -100px;
-      right: -100px;
+      top: -75px;
+      right: -75px;
       z-index: 0;
     }
     p {
@@ -563,6 +579,11 @@ section {
     img {
       width: 150px;
     }
+    .garis-1,
+    .garis-2 {
+      display: none;
+    }
+
     .wave,
     .wave1 {
       display: none;
@@ -570,21 +591,22 @@ section {
   }
   .milestone {
     width: 100%;
-
+    position: relative;
+    height: 1500px;
     .grid-container {
       column-gap: 30px;
       display: grid;
       grid-template-columns: 120px 20px auto;
-      grid-template-rows: repeat(9, 1fr);
+      grid-template-rows: repeat(9, 100px);
       grid-template-areas:
         "tanggal4 titik4 konten4"
-        ". . ."
+        ". garis-hp1 ."
         "tanggal5 titik5 konten5"
-        ". . ."
+        ". garis-hp2 ."
         "tanggal6 titik6 konten6"
-        ". . ."
+        ". garis-hp3 ."
         "tanggal7 titik7 konten7"
-        ". . ."
+        ". garis-hp4 ."
         "tanggal8 titik8 konten8";
     }
     h3 {
@@ -681,6 +703,28 @@ section {
       .konten-hp {
         display: block;
       }
+    }
+
+    .garis-hp1,
+    .garis-hp2,
+    .garis-hp3,
+    .garis-hp4 {
+      display: block;
+      position: relative;
+      left: -27px;
+    }
+
+    .garis-hp1 {
+      grid-area: garis-hp1;
+    }
+    .garis-hp2 {
+      grid-area: garis-hp2;
+    }
+    .garis-hp3 {
+      grid-area: garis-hp3;
+    }
+    .garis-hp4 {
+      grid-area: garis-hp4;
     }
 
     .tanggal1,

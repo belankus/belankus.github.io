@@ -92,8 +92,8 @@ header .gerigi2 {
 
 header .gerigi3 {
   position: absolute;
-  top: -100 0.14px;
-  left: 991.37px;
+  top: -100.14px;
+  left: 961.37px;
   z-index: 4;
 }
 
@@ -178,6 +178,10 @@ header .cover .welcome .playground .hijau {
 
 header .cover .deskripsi {
   color: #707070;
+}
+
+header .polygon2 {
+  display: none;
 }
 
 section {
@@ -466,6 +470,13 @@ section .main {
   line-height: 22px;
 }
 
+.milestone .garis-hp1,
+.milestone .garis-hp2,
+.milestone .garis-hp3,
+.milestone .garis-hp4 {
+  display: none;
+}
+
 .milestone .garis1 {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
@@ -638,13 +649,20 @@ section .main {
     font-size: 30px;
     line-height: 34px;
   }
+  header .polygon2 {
+    display: block;
+    position: absolute;
+    bottom: -75px;
+    right: -75px;
+    z-index: 0;
+  }
   .about {
     position: relative;
   }
   .about .polygon2 {
     position: absolute;
-    top: -100px;
-    right: -100px;
+    top: -75px;
+    right: -75px;
     z-index: 0;
   }
   .about p {
@@ -660,12 +678,18 @@ section .main {
   .about img {
     width: 150px;
   }
+  .about .garis-1,
+  .about .garis-2 {
+    display: none;
+  }
   .about .wave,
   .about .wave1 {
     display: none;
   }
   .milestone {
     width: 100%;
+    position: relative;
+    height: 1500px;
   }
   .milestone .grid-container {
     -webkit-column-gap: 30px;
@@ -674,9 +698,9 @@ section .main {
     display: grid;
     -ms-grid-columns: 120px 20px auto;
         grid-template-columns: 120px 20px auto;
-    -ms-grid-rows: (1fr)[9];
-        grid-template-rows: repeat(9, 1fr);
-        grid-template-areas: "tanggal4 titik4 konten4" ". . ." "tanggal5 titik5 konten5" ". . ." "tanggal6 titik6 konten6" ". . ." "tanggal7 titik7 konten7" ". . ." "tanggal8 titik8 konten8";
+    -ms-grid-rows: (100px)[9];
+        grid-template-rows: repeat(9, 100px);
+        grid-template-areas: "tanggal4 titik4 konten4" ". garis-hp1 ." "tanggal5 titik5 konten5" ". garis-hp2 ." "tanggal6 titik6 konten6" ". garis-hp3 ." "tanggal7 titik7 konten7" ". garis-hp4 ." "tanggal8 titik8 konten8";
   }
   .milestone h3 {
     text-align: right;
@@ -818,6 +842,34 @@ section .main {
   .milestone .konten7 .konten-hp,
   .milestone .konten8 .konten-hp {
     display: block;
+  }
+  .milestone .garis-hp1,
+  .milestone .garis-hp2,
+  .milestone .garis-hp3,
+  .milestone .garis-hp4 {
+    display: block;
+    position: relative;
+    left: -27px;
+  }
+  .milestone .garis-hp1 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: garis-hp1;
+  }
+  .milestone .garis-hp2 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 2;
+    grid-area: garis-hp2;
+  }
+  .milestone .garis-hp3 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 2;
+    grid-area: garis-hp3;
+  }
+  .milestone .garis-hp4 {
+    -ms-grid-row: 8;
+    -ms-grid-column: 2;
+    grid-area: garis-hp4;
   }
   .milestone .tanggal1,
   .milestone .tanggal2,
