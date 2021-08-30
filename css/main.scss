@@ -613,8 +613,12 @@ section {
     .tanggal8 {
       position: relative;
       align-self: center;
+      left: -30px;
       bottom: -5px;
       justify-self: end;
+      h3 {
+        font-size: 16px;
+      }
     }
     .titik4 {
       grid-area: titik4;
@@ -637,7 +641,7 @@ section {
     .titik7,
     .titik8 {
       position: relative;
-      // left: -25px;
+      left: -25px;
     }
 
     .konten4 {
@@ -663,6 +667,7 @@ section {
     .konten8 {
       position: relative;
       top: 35px;
+      left: -25px;
       justify-self: start;
       .konten-pc {
         display: none;

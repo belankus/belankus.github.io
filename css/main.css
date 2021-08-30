@@ -715,9 +715,17 @@ section .main {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    left: -30px;
     bottom: -5px;
     -ms-grid-column-align: end;
         justify-self: end;
+  }
+  .milestone .tanggal4 h3,
+  .milestone .tanggal5 h3,
+  .milestone .tanggal6 h3,
+  .milestone .tanggal7 h3,
+  .milestone .tanggal8 h3 {
+    font-size: 16px;
   }
   .milestone .titik4 {
     -ms-grid-row: 1;
@@ -750,6 +758,7 @@ section .main {
   .milestone .titik7,
   .milestone .titik8 {
     position: relative;
+    left: -25px;
   }
   .milestone .konten4 {
     -ms-grid-row: 1;
@@ -783,6 +792,7 @@ section .main {
   .milestone .konten8 {
     position: relative;
     top: 35px;
+    left: -25px;
     -ms-grid-column-align: start;
         justify-self: start;
   }
