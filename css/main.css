@@ -184,6 +184,10 @@ header .cover .deskripsi {
   color: #707070;
 }
 
+header .cover .deskripsi-hp {
+  display: none;
+}
+
 header .polygon2 {
   display: none;
 }
@@ -760,6 +764,27 @@ section .main {
   line-height: 60px;
 }
 
+footer .credit {
+  text-align: center;
+  background-color: #e9ecef;
+  height: 50px;
+  width: 100%;
+}
+
+footer .credit p {
+  color: #707070;
+  line-height: 50px;
+}
+
+footer .credit p svg {
+  color: #ea4335;
+}
+
+footer .credit p a {
+  text-decoration: none;
+  color: #707070;
+}
+
 @media screen and (max-width: 768px) {
   header .transparan {
     background-color: #f8f9fa;
@@ -806,11 +831,21 @@ section .main {
     line-height: 34px;
   }
   header .cover .welcome p {
-    font-size: 14px;
+    font-size: 16px;
   }
   header .cover .welcome .playground {
     font-size: 30px;
     line-height: 32px;
+  }
+  header .cover .welcome .deskripsi {
+    display: none;
+  }
+  header .cover .welcome .deskripsi-hp {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 85%;
+    color: #707070;
   }
   header .polygon2 {
     display: block;
@@ -1059,6 +1094,52 @@ section .main {
   .milestone .konten3,
   .milestone .readmore {
     display: none;
+  }
+  .gallery .grid-container {
+    display: -ms-grid;
+    display: grid;
+    margin-top: 20px;
+    text-align: center;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: (200px)[4];
+        grid-template-rows: repeat(4, 200px);
+        grid-template-areas: "foto1" "foto2" "foto4" "foto5";
+  }
+  .gallery .foto1 img,
+  .gallery .foto2 img,
+  .gallery .foto4 img,
+  .gallery .foto5 img {
+    width: 70%;
+  }
+  .gallery .foto3 {
+    display: none;
+  }
+  .gallery .foto1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: foto1;
+  }
+  .gallery .foto2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: foto2;
+  }
+  .gallery .foto3 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 3;
+    grid-area: foto3;
+  }
+  .gallery .foto4 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: foto4;
+  }
+  .gallery .foto5 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: foto5;
   }
 }
 /*# sourceMappingURL=main.css.map */

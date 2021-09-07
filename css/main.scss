@@ -173,6 +173,9 @@ header {
     .deskripsi {
       color: $huruf;
     }
+    .deskripsi-hp {
+      display: none;
+    }
   }
   .polygon2 {
     display: none;
@@ -623,6 +626,26 @@ section {
   }
 }
 
+footer {
+  .credit {
+    text-align: center;
+    background-color: $latar2;
+    height: 50px;
+    width: 100%;
+    p {
+      color: $huruf;
+      line-height: 50px;
+      svg {
+        color: $merah;
+      }
+      a {
+        text-decoration: none;
+        color: $huruf;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   header {
     .transparan {
@@ -675,11 +698,21 @@ section {
           line-height: 34px;
         }
         p {
-          font-size: 14px;
+          font-size: 16px;
         }
         .playground {
           font-size: 30px;
           line-height: 32px;
+        }
+        .deskripsi {
+          display: none;
+        }
+        .deskripsi-hp {
+          display: block;
+          margin: auto;
+          margin-top: 15px;
+          width: 85%;
+          color: $huruf;
         }
       }
     }
@@ -887,6 +920,49 @@ section {
     .konten3,
     .readmore {
       display: none;
+    }
+  }
+
+  .gallery {
+    .grid-container {
+      display: grid;
+      margin-top: 20px;
+      text-align: center;
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(4, 200px);
+      grid-template-areas:
+        "foto1"
+        "foto2"
+        "foto4"
+        "foto5";
+    }
+
+    .foto1,
+    .foto2,
+    .foto4,
+    .foto5 {
+      img {
+        width: 70%;
+      }
+    }
+
+    .foto3 {
+      display: none;
+    }
+    .foto1 {
+      grid-area: foto1;
+    }
+    .foto2 {
+      grid-area: foto2;
+    }
+    .foto3 {
+      grid-area: foto3;
+    }
+    .foto4 {
+      grid-area: foto4;
+    }
+    .foto5 {
+      grid-area: foto5;
     }
   }
 }
