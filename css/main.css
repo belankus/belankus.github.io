@@ -26,6 +26,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: #f8f9fa;
+}
+
 header {
   width: 100%;
   height: auto;
@@ -279,7 +283,17 @@ section .main {
 
 .milestone {
   width: 100%;
+  height: auto;
   background-color: #e9ecef;
+}
+
+.milestone .polygon3 {
+  position: absolute;
+  left: -230px;
+}
+
+.milestone .polygon3 img {
+  width: 350px;
 }
 
 .milestone .judul {
@@ -602,6 +616,144 @@ section .main {
   -ms-grid-row: 8;
   -ms-grid-column: 11;
   grid-area: titik8;
+}
+
+.milestone .readmore {
+  margin-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.gallery {
+  width: 100%;
+  background: #e9ecef;
+  height: auto;
+}
+
+.gallery .judul {
+  padding-top: 90px;
+  text-align: center;
+}
+
+.gallery .judul h1 {
+  color: #707070;
+  font-family: vigaregular;
+  font-size: 34px;
+}
+
+.gallery .judul span {
+  color: #4285f4;
+}
+
+.gallery .grid-container {
+  margin-top: 100px;
+  margin-left: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-grid-columns: (300px)[3];
+      grid-template-columns: repeat(3, 300px);
+  -ms-grid-rows: (200px)[2];
+      grid-template-rows: repeat(2, 200px);
+      grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto3";
+}
+
+.gallery .foto1 img,
+.gallery .foto2 img,
+.gallery .foto3 img,
+.gallery .foto4 img,
+.gallery .foto5 img,
+.gallery .foto6 img {
+  width: 300px;
+  border-radius: 30px;
+  height: 199.8px;
+}
+
+.gallery .foto1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: foto1;
+}
+
+.gallery .foto2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: foto2;
+}
+
+.gallery .foto3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  grid-area: foto3;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.gallery .foto3 img {
+  height: 415px;
+  width: auto;
+}
+
+.gallery .foto4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: foto4;
+}
+
+.gallery .foto5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: foto5;
+}
+
+.gallery .foto6 {
+  grid-area: foto6;
+}
+
+.gallery .readmore {
+  margin-top: 60px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.contact-me {
+  height: 800px;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.contact-me .pseudo {
+  background-color: #e9ecef;
+  height: 120px;
+  position: relative;
+  border-radius: 0 0 30px 30px;
+}
+
+.contact-me .judul {
+  width: 300px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ea4335), color-stop(#fbbc05), to(#34a853));
+  background-image: linear-gradient(to right, #ea4335, #fbbc05, #34a853);
+  height: 60px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.contact-me .judul h2 {
+  color: white;
+  line-height: 60px;
 }
 
 @media screen and (max-width: 768px) {

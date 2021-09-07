@@ -33,7 +33,9 @@ $huruf: #707070;
   font-weight: normal;
   font-style: normal;
 }
-
+body {
+  background-color: $latar;
+}
 header {
   width: 100%;
   height: auto;
@@ -264,9 +266,18 @@ section {
 }
 
 .milestone {
+  // position: relative;
   width: 100%;
+  height: auto;
   background-color: $latar2;
-
+  // border-radius: 0 0 20px 20px;
+  .polygon3 {
+    position: absolute;
+    left: -230px;
+    img {
+      width: 350px;
+    }
+  }
   .judul {
     padding-top: 90px;
     text-align: center;
@@ -493,6 +504,119 @@ section {
     bottom: -3px;
     grid-area: titik8;
     // background: $hijau;
+  }
+  .readmore {
+    // position: relative;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+}
+
+.gallery {
+  width: 100%;
+  background: $latar2;
+  height: auto;
+  // position: relative;
+  // text-align: center;
+  .judul {
+    padding-top: 90px;
+    text-align: center;
+    h1 {
+      color: $huruf;
+      font-family: vigaregular;
+      font-size: 34px;
+    }
+    span {
+      color: $biru;
+    }
+  }
+
+  .grid-container {
+    // text-align: center;
+    // height: 800px;
+    margin-top: 100px;
+    margin-left: auto;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 200px);
+    grid-template-areas:
+      "foto1 foto2 foto3"
+      "foto4 foto5 foto3";
+  }
+
+  .foto1,
+  .foto2,
+  .foto3,
+  .foto4,
+  .foto5,
+  .foto6 {
+    img {
+      width: 300px;
+      border-radius: 30px;
+      height: 199.8px;
+    }
+  }
+  .foto1 {
+    grid-area: foto1;
+  }
+  .foto2 {
+    grid-area: foto2;
+  }
+  .foto3 {
+    grid-area: foto3;
+    align-self: center;
+    img {
+      height: 415px;
+      width: auto;
+    }
+  }
+  .foto4 {
+    grid-area: foto4;
+  }
+  .foto5 {
+    grid-area: foto5;
+  }
+  .foto6 {
+    grid-area: foto6;
+  }
+  .readmore {
+    // position: relative;
+    margin-top: 60px;
+    padding-bottom: 120px;
+    text-align: center;
+  }
+}
+
+.contact-me {
+  height: 800px;
+  background-color: $latar;
+  position: relative;
+  // text-align: center;
+  .pseudo {
+    background-color: $latar2;
+    height: 120px;
+    position: relative;
+    border-radius: 0 0 30px 30px;
+  }
+  .judul {
+    width: 300px;
+    background-image: linear-gradient(to right, $merah, $kuning, $hijau);
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
+    h2 {
+      color: white;
+      line-height: 60px;
+    }
   }
 }
 
