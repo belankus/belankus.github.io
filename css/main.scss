@@ -511,6 +511,9 @@ section {
     padding-bottom: 60px;
     text-align: center;
   }
+  .readmore-hp {
+    display: none;
+  }
 }
 
 .gallery {
@@ -666,9 +669,18 @@ section {
       }
     }
     .cover {
-      h2 {
-        font-size: 30px;
-        line-height: 34px;
+      .welcome {
+        h2 {
+          font-size: 30px;
+          line-height: 34px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .playground {
+          font-size: 30px;
+          line-height: 32px;
+        }
       }
     }
     .polygon2 {
@@ -721,7 +733,7 @@ section {
       column-gap: 30px;
       display: grid;
       grid-template-columns: 120px 20px auto;
-      grid-template-rows: repeat(9, 100px);
+      grid-template-rows: repeat(10, 100px);
       grid-template-areas:
         "tanggal4 titik4 konten4"
         ". garis-hp1 ."
@@ -731,7 +743,8 @@ section {
         ". garis-hp3 ."
         "tanggal7 titik7 konten7"
         ". garis-hp4 ."
-        "tanggal8 titik8 konten8";
+        "tanggal8 titik8 konten8"
+        "readmore readmore readmore";
     }
     h3 {
       text-align: right;
@@ -851,6 +864,11 @@ section {
       grid-area: garis-hp4;
     }
 
+    .readmore-hp {
+      display: block;
+      grid-area: readmore;
+    }
+
     .tanggal1,
     .tanggal2,
     .tanggal3,
@@ -866,7 +884,8 @@ section {
     .titik3,
     .konten1,
     .konten2,
-    .konten3 {
+    .konten3,
+    .readmore {
       display: none;
     }
   }

@@ -624,6 +624,10 @@ section .main {
   text-align: center;
 }
 
+.milestone .readmore-hp {
+  display: none;
+}
+
 .gallery {
   width: 100%;
   background: #e9ecef;
@@ -797,9 +801,16 @@ section .main {
   header .photo1 img {
     height: 200px;
   }
-  header .cover h2 {
+  header .cover .welcome h2 {
     font-size: 30px;
     line-height: 34px;
+  }
+  header .cover .welcome p {
+    font-size: 14px;
+  }
+  header .cover .welcome .playground {
+    font-size: 30px;
+    line-height: 32px;
   }
   header .polygon2 {
     display: block;
@@ -850,9 +861,9 @@ section .main {
     display: grid;
     -ms-grid-columns: 120px 20px auto;
         grid-template-columns: 120px 20px auto;
-    -ms-grid-rows: (100px)[9];
-        grid-template-rows: repeat(9, 100px);
-        grid-template-areas: "tanggal4 titik4 konten4" ". garis-hp1 ." "tanggal5 titik5 konten5" ". garis-hp2 ." "tanggal6 titik6 konten6" ". garis-hp3 ." "tanggal7 titik7 konten7" ". garis-hp4 ." "tanggal8 titik8 konten8";
+    -ms-grid-rows: (100px)[10];
+        grid-template-rows: repeat(10, 100px);
+        grid-template-areas: "tanggal4 titik4 konten4" ". garis-hp1 ." "tanggal5 titik5 konten5" ". garis-hp2 ." "tanggal6 titik6 konten6" ". garis-hp3 ." "tanggal7 titik7 konten7" ". garis-hp4 ." "tanggal8 titik8 konten8" "readmore readmore readmore";
   }
   .milestone h3 {
     text-align: right;
@@ -1023,6 +1034,13 @@ section .main {
     -ms-grid-column: 2;
     grid-area: garis-hp4;
   }
+  .milestone .readmore-hp {
+    display: block;
+    -ms-grid-row: 10;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: readmore;
+  }
   .milestone .tanggal1,
   .milestone .tanggal2,
   .milestone .tanggal3,
@@ -1038,7 +1056,8 @@ section .main {
   .milestone .titik3,
   .milestone .konten1,
   .milestone .konten2,
-  .milestone .konten3 {
+  .milestone .konten3,
+  .milestone .readmore {
     display: none;
   }
 }
