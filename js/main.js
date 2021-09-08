@@ -4,5 +4,3 @@ $(function () {
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
-
-console.log("hai");

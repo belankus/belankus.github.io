@@ -733,7 +733,7 @@ section .main {
 }
 
 .contact-me {
-  height: 800px;
+  height: auto;
   background-color: #f8f9fa;
   position: relative;
 }
@@ -762,6 +762,18 @@ section .main {
 .contact-me .judul h2 {
   color: white;
   line-height: 60px;
+}
+
+.contact-me .location {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact-me .location .peta {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
 }
 
 footer .credit {
@@ -1140,6 +1152,9 @@ footer .credit p a {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: foto5;
+  }
+  .contact-me .peta {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

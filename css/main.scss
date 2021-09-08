@@ -33,6 +33,7 @@ $huruf: #707070;
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   background-color: $latar;
 }
@@ -599,7 +600,7 @@ section {
 }
 
 .contact-me {
-  height: 800px;
+  height: auto;
   background-color: $latar;
   position: relative;
   // text-align: center;
@@ -622,6 +623,15 @@ section {
     h2 {
       color: white;
       line-height: 60px;
+    }
+  }
+  .location {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    .peta {
+      box-sizing: content-box;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 5px;
     }
   }
 }
@@ -963,6 +973,11 @@ footer {
     }
     .foto5 {
       grid-area: foto5;
+    }
+  }
+  .contact-me {
+    .peta {
+      display: none;
     }
   }
 }
