@@ -509,6 +509,30 @@ section {
     grid-area: titik8;
     // background: $hijau;
   }
+  .titik1,
+  .titik2,
+  .titik3,
+  .titik4,
+  .titik5,
+  .titik6,
+  .titik7,
+  .titik8 {
+    transition: 500ms;
+    transform: scale(1);
+  }
+
+  .titik1:hover,
+  .titik2:hover,
+  .titik3:hover,
+  .titik4:hover,
+  .titik5:hover,
+  .titik6:hover,
+  .titik7:hover,
+  .titik8:hover {
+    cursor: pointer;
+    transition: 500ms;
+    transform: scale(1.125);
+  }
   .readmore {
     // position: relative;
     margin-top: 30px;
@@ -656,6 +680,38 @@ footer {
   }
 }
 
+// Modal Dialog
+.modal-content {
+  background-color: $latar;
+  h5 {
+    color: $huruf;
+  }
+  .modal-body {
+    .foto {
+      width: 100%;
+      height: 270px;
+      overflow: hidden;
+      border: 1px solid rgba(0, 0, 0, 0.6);
+      border-radius: 3px;
+      img {
+        // height: 250px;
+        width: 100%;
+      }
+    }
+    .tanggal {
+      font-family: montserratregular;
+      font-size: 12px;
+      color: $huruf;
+    }
+    .deskripsi {
+      text-align: justify;
+      text-justify: inter-word;
+      color: $huruf;
+    }
+  }
+}
+
+// Responsive HP
 @media screen and (max-width: 768px) {
   header {
     .transparan {

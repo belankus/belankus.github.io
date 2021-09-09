@@ -622,6 +622,35 @@ section .main {
   grid-area: titik8;
 }
 
+.milestone .titik1,
+.milestone .titik2,
+.milestone .titik3,
+.milestone .titik4,
+.milestone .titik5,
+.milestone .titik6,
+.milestone .titik7,
+.milestone .titik8 {
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.milestone .titik1:hover,
+.milestone .titik2:hover,
+.milestone .titik3:hover,
+.milestone .titik4:hover,
+.milestone .titik5:hover,
+.milestone .titik6:hover,
+.milestone .titik7:hover,
+.milestone .titik8:hover {
+  cursor: pointer;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  -webkit-transform: scale(1.125);
+          transform: scale(1.125);
+}
+
 .milestone .readmore {
   margin-top: 30px;
   padding-bottom: 60px;
@@ -794,6 +823,38 @@ footer .credit p svg {
 
 footer .credit p a {
   text-decoration: none;
+  color: #707070;
+}
+
+.modal-content {
+  background-color: #f8f9fa;
+}
+
+.modal-content h5 {
+  color: #707070;
+}
+
+.modal-content .modal-body .foto {
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+}
+
+.modal-content .modal-body .foto img {
+  width: 100%;
+}
+
+.modal-content .modal-body .tanggal {
+  font-family: montserratregular;
+  font-size: 12px;
+  color: #707070;
+}
+
+.modal-content .modal-body .deskripsi {
+  text-align: justify;
+  text-justify: inter-word;
   color: #707070;
 }
 
