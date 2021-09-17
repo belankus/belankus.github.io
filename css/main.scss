@@ -707,6 +707,17 @@ footer {
       text-align: justify;
       text-justify: inter-word;
       color: $huruf;
+      h3 {
+        font-size: 16px;
+        color: $huruf;
+        display: inline-block;
+      }
+      .detail-tanggal {
+        position: relative;
+        float: right;
+        font-size: 14px;
+        color: lighten($huruf, 0.5);
+      }
     }
   }
 }

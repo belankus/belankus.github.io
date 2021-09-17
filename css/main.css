@@ -858,6 +858,19 @@ footer .credit p a {
   color: #707070;
 }
 
+.modal-content .modal-body .deskripsi h3 {
+  font-size: 16px;
+  color: #707070;
+  display: inline-block;
+}
+
+.modal-content .modal-body .deskripsi .detail-tanggal {
+  position: relative;
+  float: right;
+  font-size: 14px;
+  color: #717171;
+}
+
 @media screen and (max-width: 768px) {
   header .transparan {
     background-color: #f8f9fa;
