@@ -871,6 +871,16 @@ footer .credit p a {
   color: #717171;
 }
 
+.modal-content .modal-body .deskripsi a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 0.8rem;
+}
+
+.modal-content .modal-body .deskripsi a:hover {
+  color: #717171;
+}
+
 @media screen and (max-width: 768px) {
   header .transparan {
     background-color: #f8f9fa;

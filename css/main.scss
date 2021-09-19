@@ -718,6 +718,14 @@ footer {
         font-size: 14px;
         color: lighten($huruf, 0.5);
       }
+      a {
+        text-decoration: none;
+        color: $huruf;
+        font-size: 0.8rem;
+      }
+      a:hover {
+        color: lighten($huruf, 0.5);
+      }
     }
   }
 }
