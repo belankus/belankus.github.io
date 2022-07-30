@@ -4,28 +4,24 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "cabinbold";
   src: url("../font/cabin-bold-webfont.woff2") format("woff2"), url("../font/cabin-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "cabinregular";
   src: url("../font/cabin-regular-webfont.woff2") format("woff2"), url("../font/cabin-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "vigaregular";
   src: url("../font/viga-regular.woff2") format("woff2"), url("../font/viga-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-
 body {
   background-color: #f8f9fa;
 }
@@ -36,35 +32,28 @@ header {
   position: relative;
   overflow: hidden;
 }
-
 header .logo {
   width: 30px;
 }
-
 header .transparan {
   background-color: rgba(0, 0, 0, 0);
 }
-
 header .navbar {
   font-family: montserratregular;
   z-index: 5;
 }
-
 header .navbar a {
   color: white;
   display: inline-block;
 }
-
 header .navbar a:hover {
   opacity: 0.5;
   display: inline-block;
 }
-
 header .navbar a:visited {
   color: white;
   display: inline-block;
 }
-
 header .navbar-layer {
   position: fixed;
   z-index: 1;
@@ -72,72 +61,61 @@ header .navbar-layer {
   height: 56px;
   background-color: #f8f9fa;
 }
-
 header .photo1 {
   position: absolute;
   left: 660px;
   top: 125.54px;
   z-index: 4;
 }
-
 header .gerigi1 {
   position: absolute;
   left: 943.51px;
   top: 300.94px;
   z-index: 4;
 }
-
 header .gerigi2 {
   position: absolute;
   left: 642.78px;
   top: 6.68px;
   z-index: 4;
 }
-
 header .gerigi3 {
   position: absolute;
   top: -100.14px;
   left: 961.37px;
   z-index: 4;
 }
-
 header .polygon1 {
   position: absolute;
   left: -154.45px;
   top: 365px;
 }
-
 header .trapesium1 {
   position: absolute;
   top: -594.53px;
   left: 391.78px;
   opacity: 0.6;
 }
-
 header .trapesium2 {
   position: absolute;
   top: -610.32px;
   left: 410.13px;
   opacity: 0.7;
 }
-
 header .trapesium3 {
   position: absolute;
   top: -627.5px;
   left: 431.81px;
   opacity: 1;
 }
-
 header .cover {
   background-color: #f8f9fa;
   height: 710px;
   position: relative;
 }
-
 header .cover .welcome {
   padding-top: 132.4px;
 }
-
 header .cover .welcome h3 {
   font-family: cabinregular;
   font-size: 22px;
@@ -145,7 +123,6 @@ header .cover .welcome h3 {
   margin: 0;
   color: #707070;
 }
-
 header .cover .welcome h2 {
   font-family: cabinregular;
   font-size: 40px;
@@ -153,7 +130,6 @@ header .cover .welcome h2 {
   margin: 0;
   color: #707070;
 }
-
 header .cover .welcome .playground {
   font-family: cabinbold;
   font-size: 40px;
@@ -163,31 +139,24 @@ header .cover .welcome .playground {
   word-spacing: 0;
   letter-spacing: 0;
 }
-
 header .cover .welcome .playground .merah {
   color: #ea4335;
 }
-
 header .cover .welcome .playground .biru {
   color: #4285f4;
 }
-
 header .cover .welcome .playground .kuning {
   color: #fbbc05;
 }
-
 header .cover .welcome .playground .hijau {
   color: #34a853;
 }
-
 header .cover .deskripsi {
   color: #707070;
 }
-
 header .cover .deskripsi-hp {
   display: none;
 }
-
 header .polygon2 {
   display: none;
 }
@@ -195,27 +164,22 @@ header .polygon2 {
 section {
   width: 100%;
 }
-
 section .about {
   height: 885px;
   background-color: #f8f9fa;
 }
-
 section .main {
   width: 100%;
 }
 
 .navbar-gaya.scrolled {
   background-color: #f8f9fa !important;
-  -webkit-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
   opacity: 1;
 }
-
 .navbar-gaya.scrolled a {
   color: #707070;
 }
-
 .navbar-gaya.scrolled a:visited {
   color: #707070;
 }
@@ -227,7 +191,6 @@ section .main {
   position: relative;
   overflow: hidden;
 }
-
 .about h1 {
   padding-top: 90px;
   font-family: vigaregular;
@@ -236,48 +199,40 @@ section .main {
   color: #707070;
   margin-bottom: 60px;
 }
-
 .about .merah {
   color: #ea4335;
 }
-
 .about p {
   color: #707070;
 }
-
 .about .polygon2 {
   position: absolute;
   top: 170px;
   right: -100px;
   z-index: 7;
 }
-
 .about .photo2 {
   position: absolute;
   bottom: 100px;
   left: 0;
   z-index: 2;
 }
-
 .about .garis-1 {
   position: relative;
   top: -85px;
 }
-
 .about .garis-2 {
   position: relative;
   top: -300px;
   left: -50px;
   z-index: 1;
 }
-
 .about .wave {
   position: relative;
   bottom: 600px;
   z-index: 3;
   left: -15px;
 }
-
 .about .wave1 {
   position: relative;
   bottom: 830px;
@@ -290,105 +245,68 @@ section .main {
   height: auto;
   background-color: #e9ecef;
 }
-
 .milestone .polygon3 {
   position: absolute;
   left: -230px;
 }
-
 .milestone .polygon3 img {
   width: 350px;
 }
-
 .milestone .judul {
   padding-top: 90px;
   text-align: center;
 }
-
 .milestone .judul h1 {
   color: #707070;
   font-family: vigaregular;
   font-size: 34px;
 }
-
 .milestone .judul span {
   color: #ea4335;
 }
-
 .milestone h3 {
   font-family: montserratregular;
   font-size: 18px;
   text-align: center;
   color: #707070;
 }
-
 .milestone .grid-container {
   position: relative;
   margin-top: 100px;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   height: 800px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (100px)[12];
-      grid-template-columns: repeat(12, 100px);
-  -ms-grid-rows: (1fr)[9];
-      grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(12, 100px);
+  grid-template-rows: repeat(9, 1fr);
   justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-      grid-template-areas: ". tanggal1 . . tanggal2 . . . tanggal3 . . ." ". titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3" ". konten1 . . konten2 . . . konten3 garis3 garis3 garis3" ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3" "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3" "garis5 garis5 garis5 konten5 . . . konten4 konten4 konten4 . ." "garis5 garis5 garis5 tanggal6 . . tanggal7 . . . tanggal8 ." "garis5 garis5 garis5 titik6 garis6 garis6 titik7 garis7 garis7 garis7 titik8 ." ". . konten6 konten6 konten6 konten7 konten7 konten7 . konten8 konten8 konten8";
+  align-items: center;
+  grid-template-areas: ". tanggal1 . . tanggal2 . . . tanggal3 . . ." ". titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3" ". konten1 . . konten2 . . . konten3 garis3 garis3 garis3" ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3" "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3" "garis5 garis5 garis5 konten5 . . . konten4 konten4 konten4 . ." "garis5 garis5 garis5 tanggal6 . . tanggal7 . . . tanggal8 ." "garis5 garis5 garis5 titik6 garis6 garis6 titik7 garis7 garis7 garis7 titik8 ." ". . konten6 konten6 konten6 konten7 konten7 konten7 . konten8 konten8 konten8";
 }
-
 .milestone .tanggal1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: tanggal1;
 }
-
 .milestone .tanggal2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
   grid-area: tanggal2;
 }
-
 .milestone .tanggal3 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 9;
   grid-area: tanggal3;
 }
-
 .milestone .tanggal4 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 9;
   grid-area: tanggal4;
 }
-
 .milestone .tanggal5 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 4;
   grid-area: tanggal5;
 }
-
 .milestone .tanggal6 {
-  -ms-grid-row: 7;
-  -ms-grid-column: 4;
   grid-area: tanggal6;
 }
-
 .milestone .tanggal7 {
-  -ms-grid-row: 7;
-  -ms-grid-column: 7;
   grid-area: tanggal7;
 }
-
 .milestone .tanggal8 {
-  -ms-grid-row: 7;
-  -ms-grid-column: 11;
   grid-area: tanggal8;
 }
-
 .milestone .tanggal1,
 .milestone .tanggal2,
 .milestone .tanggal3,
@@ -397,69 +315,37 @@ section .main {
 .milestone .tanggal6,
 .milestone .tanggal7,
 .milestone .tanggal8 {
-  -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+  align-self: end;
   position: relative;
   bottom: -10px;
 }
-
 .milestone .konten-hp {
   display: none;
 }
-
 .milestone .konten1 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
   grid-area: konten1;
 }
-
 .milestone .konten2 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 5;
   grid-area: konten2;
 }
-
 .milestone .konten3 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 9;
   grid-area: konten3;
 }
-
 .milestone .konten4 {
-  -ms-grid-row: 6;
-  -ms-grid-column: 8;
-  -ms-grid-column-span: 3;
   grid-area: konten4;
 }
-
 .milestone .konten5 {
-  -ms-grid-row: 6;
-  -ms-grid-column: 4;
   grid-area: konten5;
 }
-
 .milestone .konten6 {
-  -ms-grid-row: 9;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 3;
   grid-area: konten6;
 }
-
 .milestone .konten7 {
-  -ms-grid-row: 9;
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 3;
   grid-area: konten7;
 }
-
 .milestone .konten8 {
-  -ms-grid-row: 9;
-  -ms-grid-column: 10;
-  -ms-grid-column-span: 3;
   grid-area: konten8;
 }
-
 .milestone .konten1,
 .milestone .konten2,
 .milestone .konten3,
@@ -471,7 +357,6 @@ section .main {
   position: relative;
   left: -3px;
 }
-
 .milestone .konten1 .konten,
 .milestone .konten2 .konten,
 .milestone .konten3 .konten,
@@ -487,141 +372,82 @@ section .main {
   color: #f8f9fa;
   line-height: 22px;
 }
-
 .milestone .garis-hp1,
 .milestone .garis-hp2,
 .milestone .garis-hp3,
 .milestone .garis-hp4 {
   display: none;
 }
-
 .milestone .garis1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 2;
   grid-area: garis1;
 }
-
 .milestone .garis2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 3;
   grid-area: garis2;
 }
-
 .milestone .garis3 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 4;
-  -ms-grid-column: 10;
-  -ms-grid-column-span: 3;
   grid-area: garis3;
-  -ms-grid-column-align: start;
-      justify-self: start;
+  justify-self: start;
   position: relative;
   left: -15px;
 }
-
 .milestone .garis4 {
-  -ms-grid-row: 5;
-  -ms-grid-column: 5;
-  -ms-grid-column-span: 4;
   grid-area: garis4;
 }
-
 .milestone .garis5 {
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-area: garis5;
-  -ms-grid-column-align: end;
-      justify-self: end;
+  justify-self: end;
   position: relative;
   right: -15px;
 }
-
 .milestone .garis6 {
-  -ms-grid-row: 8;
-  -ms-grid-column: 5;
-  -ms-grid-column-span: 2;
   grid-area: garis6;
-  -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   position: relative;
   left: -4px;
 }
-
 .milestone .garis7 {
-  -ms-grid-row: 8;
-  -ms-grid-column: 8;
-  -ms-grid-column-span: 3;
   grid-area: garis7;
 }
-
 .milestone .titik1 {
   position: relative;
   bottom: -3px;
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: titik1;
 }
-
 .milestone .titik2 {
   position: relative;
   bottom: -3px;
-  -ms-grid-row: 2;
-  -ms-grid-column: 5;
   grid-area: titik2;
 }
-
 .milestone .titik3 {
   position: relative;
   bottom: -3px;
-  -ms-grid-row: 2;
-  -ms-grid-column: 9;
   grid-area: titik3;
 }
-
 .milestone .titik4 {
   position: relative;
   bottom: -3px;
-  -ms-grid-row: 5;
-  -ms-grid-column: 9;
   grid-area: titik4;
 }
-
 .milestone .titik5 {
   position: relative;
   bottom: -3px;
-  -ms-grid-row: 5;
-  -ms-grid-column: 4;
   grid-area: titik5;
 }
-
 .milestone .titik6 {
   position: relative;
   bottom: -3px;
-  -ms-grid-row: 8;
-  -ms-grid-column: 4;
   grid-area: titik6;
 }
-
 .milestone .titik7 {
   position: relative;
   bottom: -3px;
-  -ms-grid-row: 8;
-  -ms-grid-column: 7;
   grid-area: titik7;
 }
-
 .milestone .titik8 {
   position: relative;
   bottom: -3px;
-  -ms-grid-row: 8;
-  -ms-grid-column: 11;
   grid-area: titik8;
 }
-
 .milestone .titik1,
 .milestone .titik2,
 .milestone .titik3,
@@ -630,12 +456,9 @@ section .main {
 .milestone .titik6,
 .milestone .titik7,
 .milestone .titik8 {
-  -webkit-transition: 500ms;
   transition: 500ms;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
-
 .milestone .titik1:hover,
 .milestone .titik2:hover,
 .milestone .titik3:hover,
@@ -645,18 +468,14 @@ section .main {
 .milestone .titik7:hover,
 .milestone .titik8:hover {
   cursor: pointer;
-  -webkit-transition: 500ms;
   transition: 500ms;
-  -webkit-transform: scale(1.125);
-          transform: scale(1.125);
+  transform: scale(1.125);
 }
-
 .milestone .readmore {
   margin-top: 30px;
   padding-bottom: 60px;
   text-align: center;
 }
-
 .milestone .readmore-hp {
   display: none;
 }
@@ -666,41 +485,30 @@ section .main {
   background: #e9ecef;
   height: auto;
 }
-
 .gallery .judul {
   padding-top: 90px;
   text-align: center;
 }
-
 .gallery .judul h1 {
   color: #707070;
   font-family: vigaregular;
   font-size: 34px;
 }
-
 .gallery .judul span {
   color: #4285f4;
 }
-
 .gallery .grid-container {
   margin-top: 100px;
   margin-left: auto;
-  display: -ms-grid;
   display: grid;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-grid-columns: (300px)[3];
-      grid-template-columns: repeat(3, 300px);
-  -ms-grid-rows: (200px)[2];
-      grid-template-rows: repeat(2, 200px);
-      grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto3";
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 200px);
+  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto3";
 }
-
 .gallery .foto1 img,
 .gallery .foto2 img,
 .gallery .foto3 img,
@@ -711,50 +519,29 @@ section .main {
   border-radius: 30px;
   height: 199.8px;
 }
-
 .gallery .foto1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: foto1;
 }
-
 .gallery .foto2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: foto2;
 }
-
 .gallery .foto3 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 3;
   grid-area: foto3;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
 .gallery .foto3 img {
   height: 415px;
   width: auto;
 }
-
 .gallery .foto4 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
   grid-area: foto4;
 }
-
 .gallery .foto5 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: foto5;
 }
-
 .gallery .foto6 {
   grid-area: foto6;
 }
-
 .gallery .readmore {
   margin-top: 60px;
   padding-bottom: 120px;
@@ -766,17 +553,14 @@ section .main {
   background-color: #f8f9fa;
   position: relative;
 }
-
 .contact-me .pseudo {
   background-color: #e9ecef;
   height: 120px;
   position: relative;
   border-radius: 0 0 30px 30px;
 }
-
 .contact-me .judul {
   width: 300px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ea4335), color-stop(#fbbc05), to(#34a853));
   background-image: linear-gradient(to right, #ea4335, #fbbc05, #34a853);
   height: 60px;
   margin: auto;
@@ -784,23 +568,18 @@ section .main {
   position: relative;
   top: -30px;
   border-radius: 5px;
-  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
-          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
 }
-
 .contact-me .judul h2 {
   color: white;
   line-height: 60px;
 }
-
 .contact-me .location {
   margin-top: 60px;
   padding-bottom: 60px;
 }
-
 .contact-me .location .peta {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
 }
@@ -811,16 +590,13 @@ footer .credit {
   height: 50px;
   width: 100%;
 }
-
 footer .credit p {
   color: #707070;
   line-height: 50px;
 }
-
 footer .credit p svg {
   color: #ea4335;
 }
-
 footer .credit p a {
   text-decoration: none;
   color: #707070;
@@ -829,11 +605,9 @@ footer .credit p a {
 .modal-content {
   background-color: #f8f9fa;
 }
-
 .modal-content h5 {
   color: #707070;
 }
-
 .modal-content .modal-body .foto {
   width: 100%;
   height: 270px;
@@ -841,52 +615,45 @@ footer .credit p a {
   border: 1px solid rgba(0, 0, 0, 0.6);
   border-radius: 3px;
 }
-
 .modal-content .modal-body .foto img {
   width: 100%;
 }
-
 .modal-content .modal-body .tanggal {
   font-family: montserratregular;
   font-size: 12px;
   color: #707070;
 }
-
 .modal-content .modal-body .deskripsi {
   text-align: justify;
   text-justify: inter-word;
   color: #707070;
 }
-
 .modal-content .modal-body .deskripsi h3 {
   font-size: 16px;
   color: #707070;
   display: inline-block;
 }
-
 .modal-content .modal-body .deskripsi .detail-tanggal {
   position: relative;
   float: right;
   font-size: 14px;
   color: #717171;
 }
-
 .modal-content .modal-body .deskripsi a {
   text-decoration: none;
   color: #707070;
   font-size: 0.8rem;
 }
-
 .modal-content .modal-body .deskripsi a:hover {
   color: #717171;
 }
 
 @media screen and (max-width: 768px) {
   header .transparan {
-    background-color: #f8f9fa;
+    background-color: rgb(248, 249, 250);
   }
   header .navbar-toggler {
-    background-color: #f8f9fa;
+    background-color: rgb(248, 249, 250);
     border: 1px solid #707070;
   }
   header .navbar-toggler-icon {
@@ -909,9 +676,9 @@ footer .credit p a {
     display: inline-block;
   }
   header h3,
-  header h2,
-  header p,
-  header .playground {
+header h2,
+header p,
+header .playground {
     text-align: center;
   }
   header .photo1 {
@@ -973,11 +740,11 @@ footer .credit p a {
     width: 150px;
   }
   .about .garis-1,
-  .about .garis-2 {
+.about .garis-2 {
     display: none;
   }
   .about .wave,
-  .about .wave1 {
+.about .wave1 {
     display: none;
   }
   .milestone {
@@ -986,259 +753,196 @@ footer .credit p a {
     height: 1500px;
   }
   .milestone .grid-container {
-    -webkit-column-gap: 30px;
-            column-gap: 30px;
-    display: -ms-grid;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
     display: grid;
-    -ms-grid-columns: 120px 20px auto;
-        grid-template-columns: 120px 20px auto;
-    -ms-grid-rows: (100px)[10];
-        grid-template-rows: repeat(10, 100px);
-        grid-template-areas: "tanggal4 titik4 konten4" ". garis-hp1 ." "tanggal5 titik5 konten5" ". garis-hp2 ." "tanggal6 titik6 konten6" ". garis-hp3 ." "tanggal7 titik7 konten7" ". garis-hp4 ." "tanggal8 titik8 konten8" "readmore readmore readmore";
+    grid-template-columns: 120px 20px auto;
+    grid-template-rows: repeat(10, 100px);
+    grid-template-areas: "tanggal4 titik4 konten4" ". garis-hp1 ." "tanggal5 titik5 konten5" ". garis-hp2 ." "tanggal6 titik6 konten6" ". garis-hp3 ." "tanggal7 titik7 konten7" ". garis-hp4 ." "tanggal8 titik8 konten8" "readmore readmore readmore";
   }
   .milestone h3 {
     text-align: right;
   }
   .milestone .tanggal4 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: tanggal4;
   }
   .milestone .tanggal5 {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
     grid-area: tanggal5;
   }
   .milestone .tanggal6 {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
     grid-area: tanggal6;
   }
   .milestone .tanggal7 {
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;
     grid-area: tanggal7;
   }
   .milestone .tanggal8 {
-    -ms-grid-row: 9;
-    -ms-grid-column: 1;
     grid-area: tanggal8;
   }
   .milestone .tanggal4,
-  .milestone .tanggal5,
-  .milestone .tanggal6,
-  .milestone .tanggal7,
-  .milestone .tanggal8 {
+.milestone .tanggal5,
+.milestone .tanggal6,
+.milestone .tanggal7,
+.milestone .tanggal8 {
     position: relative;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     left: -30px;
     bottom: -5px;
-    -ms-grid-column-align: end;
-        justify-self: end;
+    justify-self: end;
   }
   .milestone .tanggal4 h3,
-  .milestone .tanggal5 h3,
-  .milestone .tanggal6 h3,
-  .milestone .tanggal7 h3,
-  .milestone .tanggal8 h3 {
+.milestone .tanggal5 h3,
+.milestone .tanggal6 h3,
+.milestone .tanggal7 h3,
+.milestone .tanggal8 h3 {
     font-size: 16px;
   }
   .milestone .titik4 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
     grid-area: titik4;
   }
   .milestone .titik5 {
-    -ms-grid-row: 3;
-    -ms-grid-column: 2;
     grid-area: titik5;
   }
   .milestone .titik6 {
-    -ms-grid-row: 5;
-    -ms-grid-column: 2;
     grid-area: titik6;
   }
   .milestone .titik7 {
-    -ms-grid-row: 7;
-    -ms-grid-column: 2;
     grid-area: titik7;
   }
   .milestone .titik8 {
-    -ms-grid-row: 9;
-    -ms-grid-column: 2;
     grid-area: titik8;
   }
   .milestone .titik4,
-  .milestone .titik5,
-  .milestone .titik6,
-  .milestone .titik7,
-  .milestone .titik8 {
+.milestone .titik5,
+.milestone .titik6,
+.milestone .titik7,
+.milestone .titik8 {
     position: relative;
     left: -25px;
   }
   .milestone .konten4 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;
     grid-area: konten4;
   }
   .milestone .konten5 {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
     grid-area: konten5;
   }
   .milestone .konten6 {
-    -ms-grid-row: 5;
-    -ms-grid-column: 3;
     grid-area: konten6;
   }
   .milestone .konten7 {
-    -ms-grid-row: 7;
-    -ms-grid-column: 3;
     grid-area: konten7;
   }
   .milestone .konten8 {
-    -ms-grid-row: 9;
-    -ms-grid-column: 3;
     grid-area: konten8;
   }
   .milestone .konten4,
-  .milestone .konten5,
-  .milestone .konten6,
-  .milestone .konten7,
-  .milestone .konten8 {
+.milestone .konten5,
+.milestone .konten6,
+.milestone .konten7,
+.milestone .konten8 {
     position: relative;
     top: 35px;
     left: -25px;
-    -ms-grid-column-align: start;
-        justify-self: start;
+    justify-self: start;
   }
   .milestone .konten4 .konten,
-  .milestone .konten5 .konten,
-  .milestone .konten6 .konten,
-  .milestone .konten7 .konten,
-  .milestone .konten8 .konten {
+.milestone .konten5 .konten,
+.milestone .konten6 .konten,
+.milestone .konten7 .konten,
+.milestone .konten8 .konten {
     text-align: left;
     position: relative;
     left: 25px;
   }
   .milestone .konten4 .konten-pc,
-  .milestone .konten5 .konten-pc,
-  .milestone .konten6 .konten-pc,
-  .milestone .konten7 .konten-pc,
-  .milestone .konten8 .konten-pc {
+.milestone .konten5 .konten-pc,
+.milestone .konten6 .konten-pc,
+.milestone .konten7 .konten-pc,
+.milestone .konten8 .konten-pc {
     display: none;
   }
   .milestone .konten4 .konten-hp,
-  .milestone .konten5 .konten-hp,
-  .milestone .konten6 .konten-hp,
-  .milestone .konten7 .konten-hp,
-  .milestone .konten8 .konten-hp {
+.milestone .konten5 .konten-hp,
+.milestone .konten6 .konten-hp,
+.milestone .konten7 .konten-hp,
+.milestone .konten8 .konten-hp {
     display: block;
   }
   .milestone .garis-hp1,
-  .milestone .garis-hp2,
-  .milestone .garis-hp3,
-  .milestone .garis-hp4 {
+.milestone .garis-hp2,
+.milestone .garis-hp3,
+.milestone .garis-hp4 {
     display: block;
     position: relative;
     left: -27px;
   }
   .milestone .garis-hp1 {
-    -ms-grid-row: 2;
-    -ms-grid-column: 2;
     grid-area: garis-hp1;
   }
   .milestone .garis-hp2 {
-    -ms-grid-row: 4;
-    -ms-grid-column: 2;
     grid-area: garis-hp2;
   }
   .milestone .garis-hp3 {
-    -ms-grid-row: 6;
-    -ms-grid-column: 2;
     grid-area: garis-hp3;
   }
   .milestone .garis-hp4 {
-    -ms-grid-row: 8;
-    -ms-grid-column: 2;
     grid-area: garis-hp4;
   }
   .milestone .readmore-hp {
     display: block;
-    -ms-grid-row: 10;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
     grid-area: readmore;
   }
   .milestone .tanggal1,
-  .milestone .tanggal2,
-  .milestone .tanggal3,
-  .milestone .garis1,
-  .milestone .garis2,
-  .milestone .garis3,
-  .milestone .garis4,
-  .milestone .garis5,
-  .milestone .garis6,
-  .milestone .garis7,
-  .milestone .titik1,
-  .milestone .titik2,
-  .milestone .titik3,
-  .milestone .konten1,
-  .milestone .konten2,
-  .milestone .konten3,
-  .milestone .readmore {
+.milestone .tanggal2,
+.milestone .tanggal3,
+.milestone .garis1,
+.milestone .garis2,
+.milestone .garis3,
+.milestone .garis4,
+.milestone .garis5,
+.milestone .garis6,
+.milestone .garis7,
+.milestone .titik1,
+.milestone .titik2,
+.milestone .titik3,
+.milestone .konten1,
+.milestone .konten2,
+.milestone .konten3,
+.milestone .readmore {
     display: none;
   }
   .gallery .grid-container {
-    display: -ms-grid;
     display: grid;
     margin-top: 20px;
     text-align: center;
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-    -ms-grid-rows: (200px)[4];
-        grid-template-rows: repeat(4, 200px);
-        grid-template-areas: "foto1" "foto2" "foto4" "foto5";
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas: "foto1" "foto2" "foto4" "foto5";
   }
   .gallery .foto1 img,
-  .gallery .foto2 img,
-  .gallery .foto4 img,
-  .gallery .foto5 img {
+.gallery .foto2 img,
+.gallery .foto4 img,
+.gallery .foto5 img {
     width: 70%;
   }
   .gallery .foto3 {
     display: none;
   }
   .gallery .foto1 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: foto1;
   }
   .gallery .foto2 {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
     grid-area: foto2;
   }
   .gallery .foto3 {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 2;
-    -ms-grid-column: 3;
     grid-area: foto3;
   }
   .gallery .foto4 {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
     grid-area: foto4;
   }
   .gallery .foto5 {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
     grid-area: foto5;
   }
   .contact-me .peta {
     display: none;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
