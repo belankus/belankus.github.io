@@ -210,7 +210,7 @@ section {
 .about {
   width: 100%;
   background-color: $latar;
-  height: 700px;
+  height: 800px;
   position: relative;
   overflow: hidden;
   h1 {
@@ -238,7 +238,7 @@ section {
   }
   .photo2 {
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     left: 0;
     z-index: 2;
   }
