@@ -187,7 +187,7 @@ section .main {
 .about {
   width: 100%;
   background-color: #f8f9fa;
-  height: 700px;
+  height: 800px;
   position: relative;
   overflow: hidden;
 }
@@ -213,7 +213,7 @@ section .main {
 }
 .about .photo2 {
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   left: 0;
   z-index: 2;
 }
@@ -223,19 +223,18 @@ section .main {
 }
 .about .garis-2 {
   position: relative;
-  top: -300px;
+  top: -180px;
   left: -50px;
   z-index: 1;
 }
 .about .wave {
   position: relative;
-  bottom: 600px;
+  bottom: 420px;
   z-index: 3;
-  left: -15px;
 }
 .about .wave1 {
   position: relative;
-  bottom: 830px;
+  bottom: 700px;
   left: 800px;
   z-index: 0;
 }
@@ -271,6 +270,7 @@ section .main {
   color: #707070;
 }
 .milestone .grid-container {
+  justify-content: center;
   position: relative;
   margin-top: 100px;
   grid-column-gap: 15px;
@@ -281,7 +281,7 @@ section .main {
   grid-template-rows: repeat(9, 1fr);
   justify-items: center;
   align-items: center;
-  grid-template-areas: ". tanggal1 . . tanggal2 . . . tanggal3 . . ." ". titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3" ". konten1 . . konten2 . . . konten3 garis3 garis3 garis3" ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3" "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3" "garis5 garis5 garis5 konten5 . . . konten4 konten4 konten4 . ." "garis5 garis5 garis5 tanggal6 . . tanggal7 . . . tanggal8 ." "garis5 garis5 garis5 titik6 garis6 garis6 titik7 garis7 garis7 garis7 titik8 ." ". . konten6 konten6 konten6 konten7 konten7 konten7 . konten8 konten8 konten8";
+  grid-template-areas: ". tanggal1 . . tanggal2 . . . tanggal3 . . ." "click-me titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3" ". konten1 . . konten2 . . . konten3 garis3 garis3 garis3" ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3" "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3" "garis5 garis5 garis5 konten5 . . . konten4 konten4 konten4 . ." "garis5 garis5 garis5 tanggal6 . . tanggal7 . . . tanggal8 ." "garis5 garis5 garis5 titik6 garis6 garis6 titik7 garis7 garis7 garis7 titik8 ." ". . konten6 konten6 konten6 konten7 konten7 konten7 . konten8 konten8 konten8";
 }
 .milestone .tanggal1 {
   grid-area: tanggal1;
@@ -407,6 +407,12 @@ section .main {
 }
 .milestone .garis7 {
   grid-area: garis7;
+}
+.milestone .click-me {
+  position: relative;
+  grid-area: click-me;
+  right: -30px;
+  top: -5px;
 }
 .milestone .titik1 {
   position: relative;
@@ -894,6 +900,7 @@ header .playground {
   .milestone .tanggal1,
 .milestone .tanggal2,
 .milestone .tanggal3,
+.milestone .click-me,
 .milestone .garis1,
 .milestone .garis2,
 .milestone .garis3,

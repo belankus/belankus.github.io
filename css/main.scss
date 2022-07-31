@@ -249,21 +249,21 @@ section {
 
   .garis-2 {
     position: relative;
-    top: -300px;
+    top: -180px;
     left: -50px;
 
     z-index: 1;
   }
   .wave {
     position: relative;
-    bottom: 600px;
+    bottom: 420px;
     z-index: 3;
-    left: -15px;
+    // left: -15px;
   }
 
   .wave1 {
     position: relative;
-    bottom: 830px;
+    bottom: 700px;
     left: 800px;
     z-index: 0;
   }
@@ -302,6 +302,7 @@ section {
     color: $huruf;
   }
   .grid-container {
+    justify-content: center;
     position: relative;
     margin-top: 100px;
     grid-column-gap: 15px;
@@ -314,7 +315,7 @@ section {
     align-items: center;
     grid-template-areas:
       ". tanggal1 . . tanggal2 . . . tanggal3 . . ."
-      ". titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3"
+      "click-me titik1 garis1 garis1 titik2 garis2 garis2 garis2 titik3 garis3 garis3 garis3"
       ". konten1 . . konten2 . . . konten3 garis3 garis3 garis3"
       ". . . tanggal5 . . . . tanggal4 garis3 garis3 garis3"
       "garis5 garis5 garis5 titik5 garis4 garis4 garis4 garis4 titik4 garis3 garis3 garis3"
@@ -459,6 +460,13 @@ section {
   .garis7 {
     grid-area: garis7;
     // background: $kuning;
+  }
+
+  .click-me {
+    position: relative;
+    grid-area: click-me;
+    right: -30px;
+    top:-5px;
   }
   .titik1 {
     position: relative;
@@ -990,6 +998,7 @@ footer {
     .tanggal1,
     .tanggal2,
     .tanggal3,
+    .click-me,
     .garis1,
     .garis2,
     .garis3,
