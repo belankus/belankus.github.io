@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.kontener {
+  margin: 0 auto;
+  background-color: #e9ecef;
+  width: 80%;
+}
+.kontener .rak {
+  margin: 0 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.kontener .rak .judul h1 {
+  margin: 0;
+}
+.kontener .rak hr {
+  border-top: 2px solid #707070;
+}
+.kontener .rak .tanggal {
+  font-size: 14px;
+}
+.kontener .rak .konten p {
+  color: #707070;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+}/*# sourceMappingURL=milestone.css.map */
