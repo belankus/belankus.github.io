@@ -1,5 +1,17 @@
+@font-face {
+  font-family: "vigaregular";
+  src: url("../font/viga-regular.woff2") format("woff2"), url("../font/viga-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f8f9fa;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .kontener {
@@ -7,16 +19,25 @@ body {
   background-color: #e9ecef;
   width: 80%;
 }
+.kontener .milestone {
+  font-family: vigaregular;
+  font-size: 34px;
+}
 .kontener .rak {
-  margin: 0 20px;
-  padding-top: 20px;
+  margin: 0 100px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 .kontener .rak .judul h1 {
+  padding-top: 10px;
   margin: 0;
 }
-.kontener .rak hr {
+.kontener .rak .garis {
   border-top: 2px solid #707070;
+}
+.kontener .rak .hr-thin {
+  border-top: 1px solid #707070;
+  padding: 1px 0;
 }
 .kontener .rak .tanggal {
   font-size: 14px;
@@ -25,7 +46,25 @@ body {
   color: #707070;
 }
 
+.tombol {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 footer {
   text-align: center;
   width: 100%;
+  background-color: #e9ecef;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin: 0;
+}
+footer svg {
+  color: #ea4335;
 }/*# sourceMappingURL=milestone.css.map */

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "vigaregular";
+  src: url("../font/viga-regular.woff2") format("woff2"),
+    url("../font/viga-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 $kuning: #fbbc05;
 $hijau: #34a853;
 $biru: #4285f4;
@@ -6,26 +14,41 @@ $latar: #f8f9fa;
 $latar2: #e9ecef;
 $huruf: #707070;
 
+html {
+  box-sizing: border-box;
+}
 body {
   background-color: $latar;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .kontener {
   margin: 0 auto;
   background-color: $latar2;
   width: 80%;
+  .milestone {
+    font-family: vigaregular;
+    font-size: 34px;
+  }
   .rak {
-    margin: 0 20px;
-    padding-top: 20px;
+    margin: 0 100px;
+    padding-top: 30px;
     padding-bottom: 20px;
     .judul {
       h1 {
+        padding-top: 10px;
         margin: 0;
       }
     }
-    hr {
+    .garis {
       border-top: 2px solid $huruf;
     }
+    .hr-thin {
+      border-top: 1px solid $huruf;
+      padding: 1px 0;
+    }
+
     .tanggal {
       font-size: 14px;
     }
@@ -37,7 +60,26 @@ body {
   }
 }
 
+.tombol {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 footer {
   text-align: center;
   width: 100%;
+  background-color: $latar2;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+
+  svg {
+    color: $merah;
+  }
 }
