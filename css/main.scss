@@ -234,7 +234,7 @@ section {
     position: absolute;
     top: 170px;
     right: -100px;
-    z-index: 7;
+    z-index: 4;
   }
   .photo2 {
     position: absolute;
@@ -640,11 +640,12 @@ section {
     background-color: $latar2;
     height: 120px;
     position: relative;
-    border-radius: 0 0 30px 30px;
+    //border-radius: 0 0 30px 30px;
   }
   .judul {
     width: 300px;
-    background-image: linear-gradient(to right, $merah, $kuning, $hijau);
+    // background-image: linear-gradient(to right, $merah, $kuning, $hijau);
+    background-color: $latar2;
     height: 60px;
     margin: auto;
     text-align: center;
@@ -653,7 +654,7 @@ section {
     border-radius: 5px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
     h2 {
-      color: white;
+      color: $huruf;
       line-height: 60px;
     }
   }

@@ -209,7 +209,7 @@ section .main {
   position: absolute;
   top: 170px;
   right: -100px;
-  z-index: 7;
+  z-index: 4;
 }
 .about .photo2 {
   position: absolute;
@@ -563,11 +563,10 @@ section .main {
   background-color: #e9ecef;
   height: 120px;
   position: relative;
-  border-radius: 0 0 30px 30px;
 }
 .contact-me .judul {
   width: 300px;
-  background-image: linear-gradient(to right, #ea4335, #fbbc05, #34a853);
+  background-color: #e9ecef;
   height: 60px;
   margin: auto;
   text-align: center;
@@ -577,7 +576,7 @@ section .main {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
 }
 .contact-me .judul h2 {
-  color: white;
+  color: #707070;
   line-height: 60px;
 }
 .contact-me .location {
@@ -682,9 +681,9 @@ footer .credit p a {
     display: inline-block;
   }
   header h3,
-header h2,
-header p,
-header .playground {
+  header h2,
+  header p,
+  header .playground {
     text-align: center;
   }
   header .photo1 {
@@ -746,11 +745,11 @@ header .playground {
     width: 150px;
   }
   .about .garis-1,
-.about .garis-2 {
+  .about .garis-2 {
     display: none;
   }
   .about .wave,
-.about .wave1 {
+  .about .wave1 {
     display: none;
   }
   .milestone {
@@ -785,10 +784,10 @@ header .playground {
     grid-area: tanggal8;
   }
   .milestone .tanggal4,
-.milestone .tanggal5,
-.milestone .tanggal6,
-.milestone .tanggal7,
-.milestone .tanggal8 {
+  .milestone .tanggal5,
+  .milestone .tanggal6,
+  .milestone .tanggal7,
+  .milestone .tanggal8 {
     position: relative;
     align-self: center;
     left: -30px;
@@ -796,10 +795,10 @@ header .playground {
     justify-self: end;
   }
   .milestone .tanggal4 h3,
-.milestone .tanggal5 h3,
-.milestone .tanggal6 h3,
-.milestone .tanggal7 h3,
-.milestone .tanggal8 h3 {
+  .milestone .tanggal5 h3,
+  .milestone .tanggal6 h3,
+  .milestone .tanggal7 h3,
+  .milestone .tanggal8 h3 {
     font-size: 16px;
   }
   .milestone .titik4 {
@@ -818,10 +817,10 @@ header .playground {
     grid-area: titik8;
   }
   .milestone .titik4,
-.milestone .titik5,
-.milestone .titik6,
-.milestone .titik7,
-.milestone .titik8 {
+  .milestone .titik5,
+  .milestone .titik6,
+  .milestone .titik7,
+  .milestone .titik8 {
     position: relative;
     left: -25px;
   }
@@ -841,42 +840,42 @@ header .playground {
     grid-area: konten8;
   }
   .milestone .konten4,
-.milestone .konten5,
-.milestone .konten6,
-.milestone .konten7,
-.milestone .konten8 {
+  .milestone .konten5,
+  .milestone .konten6,
+  .milestone .konten7,
+  .milestone .konten8 {
     position: relative;
     top: 35px;
     left: -25px;
     justify-self: start;
   }
   .milestone .konten4 .konten,
-.milestone .konten5 .konten,
-.milestone .konten6 .konten,
-.milestone .konten7 .konten,
-.milestone .konten8 .konten {
+  .milestone .konten5 .konten,
+  .milestone .konten6 .konten,
+  .milestone .konten7 .konten,
+  .milestone .konten8 .konten {
     text-align: left;
     position: relative;
     left: 25px;
   }
   .milestone .konten4 .konten-pc,
-.milestone .konten5 .konten-pc,
-.milestone .konten6 .konten-pc,
-.milestone .konten7 .konten-pc,
-.milestone .konten8 .konten-pc {
+  .milestone .konten5 .konten-pc,
+  .milestone .konten6 .konten-pc,
+  .milestone .konten7 .konten-pc,
+  .milestone .konten8 .konten-pc {
     display: none;
   }
   .milestone .konten4 .konten-hp,
-.milestone .konten5 .konten-hp,
-.milestone .konten6 .konten-hp,
-.milestone .konten7 .konten-hp,
-.milestone .konten8 .konten-hp {
+  .milestone .konten5 .konten-hp,
+  .milestone .konten6 .konten-hp,
+  .milestone .konten7 .konten-hp,
+  .milestone .konten8 .konten-hp {
     display: block;
   }
   .milestone .garis-hp1,
-.milestone .garis-hp2,
-.milestone .garis-hp3,
-.milestone .garis-hp4 {
+  .milestone .garis-hp2,
+  .milestone .garis-hp3,
+  .milestone .garis-hp4 {
     display: block;
     position: relative;
     left: -27px;
@@ -898,23 +897,23 @@ header .playground {
     grid-area: readmore;
   }
   .milestone .tanggal1,
-.milestone .tanggal2,
-.milestone .tanggal3,
-.milestone .click-me,
-.milestone .garis1,
-.milestone .garis2,
-.milestone .garis3,
-.milestone .garis4,
-.milestone .garis5,
-.milestone .garis6,
-.milestone .garis7,
-.milestone .titik1,
-.milestone .titik2,
-.milestone .titik3,
-.milestone .konten1,
-.milestone .konten2,
-.milestone .konten3,
-.milestone .readmore {
+  .milestone .tanggal2,
+  .milestone .tanggal3,
+  .milestone .click-me,
+  .milestone .garis1,
+  .milestone .garis2,
+  .milestone .garis3,
+  .milestone .garis4,
+  .milestone .garis5,
+  .milestone .garis6,
+  .milestone .garis7,
+  .milestone .titik1,
+  .milestone .titik2,
+  .milestone .titik3,
+  .milestone .konten1,
+  .milestone .konten2,
+  .milestone .konten3,
+  .milestone .readmore {
     display: none;
   }
   .gallery .grid-container {
@@ -926,9 +925,9 @@ header .playground {
     grid-template-areas: "foto1" "foto2" "foto4" "foto5";
   }
   .gallery .foto1 img,
-.gallery .foto2 img,
-.gallery .foto4 img,
-.gallery .foto5 img {
+  .gallery .foto2 img,
+  .gallery .foto4 img,
+  .gallery .foto5 img {
     width: 70%;
   }
   .gallery .foto3 {
