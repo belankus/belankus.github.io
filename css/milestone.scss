@@ -23,6 +23,18 @@ body {
   margin: 0;
 }
 
+.menu-navigasi {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+  background-color: $latar2;
+  width:80% ;
+  .isi-navigasi {
+    margin: 0 50px;
+    padding: 10px 0;
+  }
+}
+
 .kontener {
   margin: 0 auto;
   background-color: $latar2;
@@ -31,6 +43,7 @@ body {
     font-family: vigaregular;
     font-size: 34px;
   }
+
   .rak {
     margin: 0 100px;
     padding-top: 30px;
