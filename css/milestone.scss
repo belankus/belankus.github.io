@@ -23,14 +23,13 @@ body {
   margin: 0;
 }
 
-
 .menu-navigasi {
   margin: 0 auto;
   margin-bottom: 15px;
   padding-top: 50px;
   padding-bottom: 25px;
   background-color: $latar2;
-  width:80% ;
+  width: 80%;
   .isi-navigasi {
     margin: 0 50px;
     padding: 10px 0;
@@ -41,18 +40,98 @@ body {
   margin: 0 auto;
   background-color: $latar;
   width: 100%;
+  //  Batas konten baru
+  .nav-pills {
+    li.active {
+      a,
+      a:focus,
+      a:hover {
+        color: #fff;
+        background-color: #337ab7;
+      }
+    }
+  }
+
+  .nav-pills {
+    li {
+      a {
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .nav li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+  }
+  nav.li {
+    column-gap: 0;
+  }
+  .grid-container {
+    margin-left: 50px;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+
+  .item1 {
+    position: sticky;
+    align-self: start;
+
+    top: 60px;
+  }
+
+  div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+  }
+
+  #section1 {
+    color: #fff;
+    background-color: #1e88e5;
+    padding-top: 60px;
+  }
+  #section2 {
+    color: #fff;
+    background-color: #673ab7;
+  }
+  #section3 {
+    color: #fff;
+    background-color: #ff9800;
+  }
+  #section41 {
+    color: #fff;
+    background-color: #00bcd4;
+  }
+  #section42 {
+    color: #fff;
+    background-color: #009688;
+  }
+
+  @media screen and (max-width: 810px) {
+    #section1,
+    #section2,
+    #section3,
+    #section41,
+    #section42 {
+      margin-left: 150px;
+    }
+  }
+  // Batas akhir konten baru
   .milestone {
     font-family: vigaregular;
     font-size: 34px;
   }
 
   .rak {
-    margin: 0 200px;
-    padding-top: 30px;
+    margin: 0 200px 0 0;
+    padding-top: 0;
     padding-bottom: 20px;
     .judul {
       h1 {
-        padding-top: 10px;
+        padding-top: 60px;
         margin: 0;
       }
     }
@@ -70,6 +149,7 @@ body {
     .konten {
       p {
         color: $huruf;
+        margin-bottom: 0;
       }
     }
   }
