@@ -4,15 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+    <link rel="shortcut icon" type="image/png" href="../img/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bellawan | Milestone</title>
 
-    <link rel="stylesheet" href="css/milestone.css" />
+    <link rel="stylesheet" href="../css/milestone.css" />
+    <!-- MyCss -->
+    <link rel="stylesheet" href="../css/main.css" />
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <header>Kepala</header>
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+    <header>
+      <!-- navbar -->
+      <nav class="navbar transparan navbar-expand-lg fixed-top navbar-gaya">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="../img/logo.png" alt="Logo" class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse float-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav ms-auto col-md-6">
+              <a class="nav-link ms-md-3 me-md-3" href="/#home">Home</a>
+              <a class="nav-link me-md-3" href="/#about">About</a>
+              <a class="nav-link me-md-3" href="/#milestone">Milestone</a>
+              <a class="nav-link me-md-3" href="/#gallery">Gallery</a>
+              <a class="nav-link me-md-3" href="/#contact-me">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <section class="menu-navigasi">
       <div class="isi-navigasi">
         <ul>
@@ -29,6 +66,7 @@
         </ul>
       </div>
     </section>
+
     <section class="kontener">
       <div class="rak">
         <div class="milestone">Milestone</div>
@@ -300,9 +338,7 @@
         </div>
       </div>
     </section>
-    <div class="tombol">
-      <button onclick="history.back()">Back to Home</button>
-    </div>
+
     <footer>
       <p>
         Made with
@@ -322,5 +358,11 @@
         by Bellawan
       </p>
     </footer>
+    <!-- jQuery -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- MyJS -->
+    <script src="../js/main.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -23,9 +23,11 @@ body {
   margin: 0;
 }
 
+
 .menu-navigasi {
   margin: 0 auto;
   margin-bottom: 15px;
+  padding-top: 50px;
   padding-bottom: 25px;
   background-color: $latar2;
   width:80% ;
@@ -37,15 +39,15 @@ body {
 
 .kontener {
   margin: 0 auto;
-  background-color: $latar2;
-  width: 80%;
+  background-color: $latar;
+  width: 100%;
   .milestone {
     font-family: vigaregular;
     font-size: 34px;
   }
 
   .rak {
-    margin: 0 100px;
+    margin: 0 200px;
     padding-top: 30px;
     padding-bottom: 20px;
     .judul {

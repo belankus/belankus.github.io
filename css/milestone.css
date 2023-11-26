@@ -17,6 +17,7 @@ body {
 .menu-navigasi {
   margin: 0 auto;
   margin-bottom: 15px;
+  padding-top: 50px;
   padding-bottom: 25px;
   background-color: #e9ecef;
   width: 80%;
@@ -28,15 +29,15 @@ body {
 
 .kontener {
   margin: 0 auto;
-  background-color: #e9ecef;
-  width: 80%;
+  background-color: #f8f9fa;
+  width: 100%;
 }
 .kontener .milestone {
   font-family: vigaregular;
   font-size: 34px;
 }
 .kontener .rak {
-  margin: 0 100px;
+  margin: 0 200px;
   padding-top: 30px;
   padding-bottom: 20px;
 }
