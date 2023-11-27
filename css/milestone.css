@@ -12,6 +12,7 @@ body {
   background-color: #f8f9fa;
   box-sizing: border-box;
   margin: 0;
+  position: relative;
 }
 
 .menu-navigasi {
@@ -66,47 +67,30 @@ body {
   height: 250px;
   font-size: 28px;
 }
-.kontener #section1 {
-  color: #fff;
-  background-color: #1e88e5;
-  padding-top: 60px;
-}
-.kontener #section2 {
-  color: #fff;
-  background-color: #673ab7;
-}
-.kontener #section3 {
-  color: #fff;
-  background-color: #ff9800;
-}
-.kontener #section41 {
-  color: #fff;
-  background-color: #00bcd4;
-}
-.kontener #section42 {
-  color: #fff;
-  background-color: #009688;
-}
-@media screen and (max-width: 810px) {
-  .kontener #section1,
-  .kontener #section2,
-  .kontener #section3,
-  .kontener #section41,
-  .kontener #section42 {
-    margin-left: 150px;
-  }
-}
 .kontener .milestone {
   font-family: vigaregular;
   font-size: 34px;
+  position: absolute;
+  height: auto;
 }
 .kontener .rak {
   margin: 0 200px 0 0;
   padding-top: 0;
   padding-bottom: 20px;
+  position: relative;
+}
+.kontener .rak .pseudo-header {
+  position: absolute;
+  background-color: transparent;
+  height: 60px;
+  width: 100%;
+}
+.kontener .rak .pseudo-stopper {
+  background-color: transparent;
+  height: 60px;
+  width: 100%;
 }
 .kontener .rak .judul h1 {
-  padding-top: 60px;
   margin: 0;
 }
 .kontener .rak .garis {
@@ -115,6 +99,9 @@ body {
 .kontener .rak .hr-thin {
   border-top: 1px solid #707070;
   padding: 1px 0;
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
 }
 .kontener .rak .tanggal {
   font-size: 14px;
@@ -122,6 +109,10 @@ body {
 .kontener .rak .konten p {
   color: #707070;
   margin-bottom: 0;
+}
+
+#arthageo h1 {
+  padding-top: 0;
 }
 
 .tombol {

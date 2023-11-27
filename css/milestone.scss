@@ -21,6 +21,7 @@ body {
   background-color: $latar;
   box-sizing: border-box;
   margin: 0;
+  position: relative;
 }
 
 .menu-navigasi {
@@ -40,6 +41,7 @@ body {
   margin: 0 auto;
   background-color: $latar;
   width: 100%;
+
   //  Batas konten baru
   .nav-pills {
     li.active {
@@ -88,50 +90,33 @@ body {
     font-size: 28px;
   }
 
-  #section1 {
-    color: #fff;
-    background-color: #1e88e5;
-    padding-top: 60px;
-  }
-  #section2 {
-    color: #fff;
-    background-color: #673ab7;
-  }
-  #section3 {
-    color: #fff;
-    background-color: #ff9800;
-  }
-  #section41 {
-    color: #fff;
-    background-color: #00bcd4;
-  }
-  #section42 {
-    color: #fff;
-    background-color: #009688;
-  }
-
-  @media screen and (max-width: 810px) {
-    #section1,
-    #section2,
-    #section3,
-    #section41,
-    #section42 {
-      margin-left: 150px;
-    }
-  }
-  // Batas akhir konten baru
   .milestone {
     font-family: vigaregular;
     font-size: 34px;
+    position: absolute;
+    height: auto;
   }
 
   .rak {
     margin: 0 200px 0 0;
     padding-top: 0;
     padding-bottom: 20px;
+    position: relative;
+    .pseudo-header {
+      position: absolute;
+      background-color: transparent;
+      height: 60px;
+      width: 100%;
+    }
+    .pseudo-stopper {
+      background-color: transparent;
+      height: 60px;
+      width: 100%;
+    }
+
     .judul {
       h1 {
-        padding-top: 60px;
+        // padding-top: 60px;
         margin: 0;
       }
     }
@@ -141,6 +126,9 @@ body {
     .hr-thin {
       border-top: 1px solid $huruf;
       padding: 1px 0;
+      position: relative;
+      top: 100%;
+      transform: translateY(-100%);
     }
 
     .tanggal {
@@ -152,6 +140,12 @@ body {
         margin-bottom: 0;
       }
     }
+  }
+}
+
+#arthageo {
+  h1 {
+    padding-top: 0;
   }
 }
 
